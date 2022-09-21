@@ -107,6 +107,8 @@
     "enablePrettyRefs": true,
     "enableKatex": true,
     "copyAssets": true,
+    "assetsPrefix": "/exam-notes",
+    "siteUrl": "https://abhik-b.github.io",
     "siteHierarchies": [
       "root"
     ],
@@ -128,7 +130,6 @@
     "enableRandomlyColoredTags": true,
     "enableTaskNotes": true,
     "enablePrettyLinks": true,
-    "siteUrl": "localhost:3000",
     "siteFaviconPath": "favicon.ico",
     "siteIndex": "root"
   }
