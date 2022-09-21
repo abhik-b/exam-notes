@@ -1,0 +1,512 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width"/><meta charSet="utf-8"/><link rel="icon" href="/favicon.ico"/><title>Computer Architecture</title><meta name="robots" content="index,follow"/><meta name="googlebot" content="index,follow"/><meta name="description" content="Personal Knowledge Space"/><meta property="og:title" content="Computer Architecture"/><meta property="og:description" content="Personal Knowledge Space"/><meta property="og:url" content="localhost:3000/notes/gx0wes5gz0irclfjvffusa4/"/><meta property="og:type" content="article"/><meta property="article:published_time" content="21/9/2022"/><meta property="article:modified_time" content="21/9/2022"/><link rel="canonical" href="localhost:3000/notes/gx0wes5gz0irclfjvffusa4/"/><meta name="next-head-count" content="14"/><link rel="preload" href="/_next/static/css/16f9c67da7709054.css" as="style"/><link rel="stylesheet" href="/_next/static/css/16f9c67da7709054.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-750fad5a240459e2.js" defer=""></script><script src="/_next/static/chunks/framework-bb5c596eafb42b22.js" defer=""></script><script src="/_next/static/chunks/main-c4b0e551a2150d17.js" defer=""></script><script src="/_next/static/chunks/pages/_app-9ae633c69cbb1e91.js" defer=""></script><script src="/_next/static/chunks/855-124c7d93158bd007.js" defer=""></script><script src="/_next/static/chunks/776-959ab9b5289532fd.js" defer=""></script><script src="/_next/static/chunks/pages/notes/%5Bid%5D-9c4f89da4e36492e.js" defer=""></script><script src="/_next/static/feL3KV3JtvScbJpYguJNn/_buildManifest.js" defer=""></script><script src="/_next/static/feL3KV3JtvScbJpYguJNn/_ssgManifest.js" defer=""></script><script src="/_next/static/feL3KV3JtvScbJpYguJNn/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""><section class="ant-layout" style="width:100%;min-height:100%"><header class="ant-layout-header" style="position:fixed;isolation:isolate;z-index:1;width:100%;border-bottom:1px solid #d4dadf;height:64px;padding:0 24px 0 2px"><div class="ant-row ant-row-center" style="max-width:992px;justify-content:space-between;margin:0 auto"><div style="display:flex" class="ant-col ant-col-xs-20 ant-col-sm-4"></div><div class="ant-col gutter-row ant-col-xs-0 ant-col-sm-20 ant-col-md-20 ant-col-lg-19"><div class="ant-select ant-select-lg ant-select-auto-complete ant-select-single ant-select-allow-clear ant-select-show-search" style="width:100%"><div class="ant-select-selector"><span class="ant-select-selection-search"><input type="search" autoComplete="off" class="ant-select-selection-search-input" role="combobox" aria-haspopup="listbox" aria-owns="undefined_list" aria-autocomplete="list" aria-controls="undefined_list" aria-activedescendant="undefined_list_0" value=""/></span><span class="ant-select-selection-placeholder">For full text search please use the &#x27;?&#x27; prefix. e.g. ? Onboarding</span></div></div></div><div style="display:none;align-items:center;justify-content:center" class="ant-col ant-col-xs-4 ant-col-sm-4 ant-col-md-0 ant-col-lg-0"><span role="img" aria-label="menu" style="font-size:24px" tabindex="-1" class="anticon anticon-menu"><svg viewBox="64 64 896 896" focusable="false" data-icon="menu" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg></span></div></div></header><section class="ant-layout" style="margin-top:64px;display:flex;flex-direction:row"><div class="site-layout-sidebar" style="flex:0 0 auto;width:calc(max((100% - 992px) / 2, 0px) + 200px);min-width:200px;padding-left:calc((100% - 992px) / 2)"><aside class="ant-layout-sider ant-layout-sider-dark" style="position:fixed;overflow:auto;height:calc(100vh - 64px);background-color:transparent;flex:0 0 200px;max-width:200px;min-width:200px;width:200px"><div class="ant-layout-sider-children"></div></aside></div><main class="ant-layout-content side-layout-main" style="max-width:1200px;min-width:0;display:block"><div class="main-content" role="main" style="padding:0 24px"><div class="ant-row"><div class="ant-col ant-col-24"><div class="ant-row" style="margin-left:-10px;margin-right:-10px"><div style="padding-left:10px;padding-right:10px" class="ant-col ant-col-xs-24 ant-col-md-18"><div><h1 id="computer-architecture"><a aria-hidden="true" class="anchor-heading icon-link" href="#computer-architecture"></a>Computer Architecture</h1>
+<ol>
+<li>Decimal (0-9) Base 10</li>
+<li>Binary 0,1 Base 2</li>
+<li>Octal 0-7 Base 8</li>
+<li>Hexadecimal 0-9,A-F
+Use this <a href="https://youtu.be/NY2gz_Kzc0Q">video</a> as a reference.</li>
+</ol>
+<h1 id="conversion-formulas"><a aria-hidden="true" class="anchor-heading icon-link" href="#conversion-formulas"></a>Conversion Formulas</h1>
+<ul>
+<li>Binary <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>2</mn><mn>1</mn></msup></mrow><annotation encoding="application/x-tex">2^1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span></li>
+<li>Octal <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>2</mn><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">2^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span></li>
+<li>Hex <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>2</mn><mn>4</mn></msup></mrow><annotation encoding="application/x-tex">2^4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span></span></span></span></span></li>
+<li>Dec 2<sup>10</sup></li>
+</ul>
+<h2 id="binary-to-octal--vice-versa-"><a aria-hidden="true" class="anchor-heading icon-link" href="#binary-to-octal--vice-versa-"></a>Binary to Octal &#x26; vice versa :</h2>
+<p>Since Octal is 2<sup>3</sup> therefore the table will have 3 columns. Also Since octal means 8 therefore half of 8 is 4 &#x26; that means in the 1st column 1st 4 digits would be 0. In the 2nd column 1st 2 digits (half of 4) would be 0. In the 3rd Column 1st 1 digit(half of 2) would be 0.</p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Octal</th><th></th><th></th><th></th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td><td>1</td></tr><tr><td>2</td><td>0</td><td>1</td><td>0</td></tr><tr><td>3</td><td>0</td><td>1</td><td>1</td></tr><tr><td>4</td><td>1</td><td>0</td><td>0</td></tr><tr><td>5</td><td>1</td><td>0</td><td>1</td></tr><tr><td>6</td><td>1</td><td>1</td><td>0</td></tr><tr><td>7</td><td>1</td><td>1</td><td>1</td></tr></tbody></table></div>
+<p><strong>Binary to Octal</strong> : Select the 3 digits from ==right to left== (left of decimal point) &#x26; ==left to right== (right of decimal point) &#x26; convert it to octal one by one.</p>
+<p>Example 1 : (1010)<sub>2</sub> to Octal.</p>
+<ol>
+<li>last 3 digits of 1010 , is 010. Now from the table <strong>010 is 2</strong>.</li>
+<li>Now only one digit 1 is remaining. To convert it I will add 2 more 0s in left of 1 to make it 3digit , 001. Now 001 is 1.</li>
+<li>So the octal is (12)<sub>8</sub> since we are going from right to left.</li>
+</ol>
+<p>Example 2 : (110010110.10101)<sub>2</sub> to octal.</p>
+<ol>
+<li>First lets convert digits left of decimal point</li>
+<li>last 3 digits 110 is 6.</li>
+<li>then 010 is 2.</li>
+<li>then 110 is 6.</li>
+<li>Now lets convert digits right of decimal point</li>
+<li>first 3 digits 101 is 5.</li>
+<li>next 01 remains , let's make it 3 digits by adding 0 at the end. Now it is 010 which is 2.</li>
+<li>So the octal number is (626.52)<sub>8</sub></li>
+</ol>
+<p>Shortcuts :
+Binary : 11101101 to octal. The trick is to take 3 digits from right to left 1by1 &#x26; compare them with this table &#x26; add the digits .</p>
+<p><img src="/assets/images/2022-09-21-14-18-26.png"></p>
+<p>Select the last 3 digits 101 &#x26; its octal is 4+1 = 5. Similiarly 101 will be 5 &#x26; the remaining 11 , I will add 0 in the start &#x26; 011 will be 2+1 = 3. So the octal is 355.</p>
+<p><strong>Octal to Binary</strong> : Select digits one by one from right to left &#x26; convert them to binary.
+Example 1: (67)<sub>8</sub> to Binary</p>
+<ol>
+<li>7 is 111</li>
+<li>6 is 110</li>
+<li>67 is (110111)<sub>2</sub></li>
+</ol>
+<p>Example 2 : (67.62)<sub>8</sub> to Binary</p>
+<ol>
+<li>First convert digits on left of decimal
+<ol>
+<li>7 is 111</li>
+<li>6 is 110</li>
+</ol>
+</li>
+<li>Then convert digits right of decimal
+<ol>
+<li>6 is 110</li>
+<li>2 is 010</li>
+</ol>
+</li>
+<li>Then the binary is (110111.110010)<sub>2</sub></li>
+</ol>
+<p><em>Shortcuts</em> :
+example 1: 24 to binary. The trick is to take 1 digit from right to left 1by1 &#x26; compare them with this table &#x26; write the digits . 4 is 100 &#x26; 2 is 10 but we will ad 0 in start to make it 3 digit. Therefore the binary is 010100</p>
+<p><img src="/assets/images/2022-09-21-14-19-19.png"></p>
+<h3 id="example-2--56-to-binary-"><a aria-hidden="true" class="anchor-heading icon-link" href="#example-2--56-to-binary-"></a>example 2 : 56 to binary .</h3>
+<p><img src="/assets/images/2022-09-21-14-20-04.png"></p>
+<p>Note : Octal numbers are from 0 to 7 so we can covert them with this formula way to easily.</p>
+<h2 id="binary-to-hexadecimal--vice-versa-"><a aria-hidden="true" class="anchor-heading icon-link" href="#binary-to-hexadecimal--vice-versa-"></a>Binary to Hexadecimal &#x26; vice versa :</h2>
+<p>Since Hexadecimal is 2<sup>4</sup> therefore the table will have 4 columns. Also Since hexadecimal means 16 therefore half of 16 is 8 &#x26; that means in the 1st column 1st 8 digits would be 0. In the 2nd column 1st 4 digits (half of 8) would be 0. In the 3rd Column 1st 1 digit(half of 2) would be 0.</p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th></th><th>Hexa</th><th>decimal</th><th>to</th><th>Binary</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td></tr><tr><td>3</td><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr><td>4</td><td>0</td><td>1</td><td>0</td><td>0</td></tr><tr><td>5</td><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><td>6</td><td>0</td><td>1</td><td>1</td><td>0</td></tr><tr><td>7</td><td>0</td><td>1</td><td>1</td><td>1</td></tr><tr><td>8</td><td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><td>9</td><td>1</td><td>0</td><td>0</td><td>1</td></tr><tr><td>A</td><td>1</td><td>0</td><td>1</td><td>0</td></tr><tr><td>B</td><td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><td>C</td><td>1</td><td>1</td><td>0</td><td>0</td></tr><tr><td>D</td><td>1</td><td>1</td><td>0</td><td>1</td></tr><tr><td>E</td><td>1</td><td>1</td><td>1</td><td>0</td></tr><tr><td>F</td><td>1</td><td>1</td><td>1</td><td>1</td></tr></tbody></table></div>
+<p><strong>Binary to Hexadecimal</strong> : Select 4 digits from right to left &#x26; convert them to hexadecimal.</p>
+<p>Example 1 : (11010110)<sub>2</sub> to Hexadecimal</p>
+<ol>
+<li>last 4 digits are 0110 , hexa is 6.</li>
+<li>next 4 digits is D</li>
+<li>so the hexa is (D6)<sub>16</sub></li>
+</ol>
+<p>Example 2 : (11010110.1101)<sub>2</sub> to hexa</p>
+<ol>
+<li>first convert digits before decimal point. It is D6</li>
+<li>digits after decimal is D</li>
+<li>the final hexa is (D6.D)<sub>16</sub></li>
+</ol>
+<p><strong>Hexadecimal to Binary</strong> : Select Digits 1 by 1 from right to left &#x26; convert to binary from above table.</p>
+<p>Example 1 : (EF2) to binary</p>
+<ol>
+<li>2 is 0010</li>
+<li>F is 1111</li>
+<li>E is 1110</li>
+<li>111011110010 is binary of EF2</li>
+</ol>
+<p><em>Shortcuts</em> :
+Similiar process like octal shortcut</p>
+<p><img src="/assets/images/2022-09-21-14-21-02.png">
+<img src="/assets/images/2022-09-21-14-21-17.png"></p>
+<hr>
+<h1 id="logic-gate"><a aria-hidden="true" class="anchor-heading icon-link" href="#logic-gate"></a>Logic Gate</h1>
+<pre><code>0 means Low / False
+1 means High / True
+</code></pre>
+<h2 id="basic-gates"><a aria-hidden="true" class="anchor-heading icon-link" href="#basic-gates"></a>Basic GATES</h2>
+<h3 id="and"><a aria-hidden="true" class="anchor-heading icon-link" href="#and"></a>AND</h3>
+<p>This GATE returns 1 only if both the inputs are 1 otherwise 0. If 1 of the input is 0 then the output will be 0. The symbol of AND gate is <code>.</code> , <code>&#x26;</code> , <code>^</code></p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>A</th><th>B</th><th>Y = A.B</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table></div>
+<h3 id="or"><a aria-hidden="true" class="anchor-heading icon-link" href="#or"></a>OR</h3>
+<p>This GATE returns 1 if one of the input is 1 then output will be 1. It will return 0 only if both the inputs are 0. The symbol to represent OR Gate is <code>+</code></p>
+<h3 id="not"><a aria-hidden="true" class="anchor-heading icon-link" href="#not"></a>NOT</h3>
+<p>This GATE takes <strong>Single</strong> Input &#x26; returns <strong>Single</strong> Output. Whatever the input is output willbe exact opposite. Example : input 0 then output 1, input 1 then output 0.</p>
+<p><img src="/assets/images/2022-09-21-14-23-13.png"></p>
+<h2 id="universal-gates"><a aria-hidden="true" class="anchor-heading icon-link" href="#universal-gates"></a>Universal GATES</h2>
+<p>A universal gate is a gate which can implement any Boolean function without need to use any other gate type.</p>
+<h3 id="nand"><a aria-hidden="true" class="anchor-heading icon-link" href="#nand"></a>NAND</h3>
+<p>Whatever the output of AND is just opposite of that. Example below (here Y' repesents Output of NAND Gate):</p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>A</th><th>B</th><th>Y = A.B</th><th>Y'</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>0</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td><td>0</td></tr></tbody></table></div>
+<h3 id="nor"><a aria-hidden="true" class="anchor-heading icon-link" href="#nor"></a>NOR</h3>
+<p>Whatever the output of OR is just opposite of that.</p>
+<h2 id="arithmetic-gates"><a aria-hidden="true" class="anchor-heading icon-link" href="#arithmetic-gates"></a>Arithmetic GATES</h2>
+<h3 id="xor"><a aria-hidden="true" class="anchor-heading icon-link" href="#xor"></a>XOR</h3>
+<p>Ex OR Means Exclusive OR . The eqn of XOR is <code>A . B' + A' . B</code> . If Inputs aresame tehno output is 0 otehrwise 1.</p>
+<h3 id="x-nor"><a aria-hidden="true" class="anchor-heading icon-link" href="#x-nor"></a>X-NOR</h3>
+<p>Means Exclusive NOR . The eqn of XOR is <code>A . B + A' . B'</code></p>
+<h2 id="truth-table"><a aria-hidden="true" class="anchor-heading icon-link" href="#truth-table"></a>Truth Table</h2>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>A</th><th>B</th><th>AND (A.B)</th><th>OR (A+B)</th><th>NAND</th><th>NOR</th><th>XOR</th><th>X-NOR</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td></tr></tbody></table></div>
+<p>...</p>
+<p><img src="/assets/images/2022-09-21-14-25-23.png"></p>
+<h1 id="implement-all-gates-using-nand--nor-gate"><a aria-hidden="true" class="anchor-heading icon-link" href="#implement-all-gates-using-nand--nor-gate"></a>Implement all Gates using NAND &#x26; NOR Gate</h1>
+<p>Building different gates using The NAND or NOR Gates. A simple Table from this <a href="https://www.youtube.com/watch?v=w2hK0JVKmJc">video</a> which states that how many NAND &#x26; NOR Gates are required to create the other mentioned gates.</p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Gates</th><th>NAND</th><th>NOR</th></tr></thead><tbody><tr><td>NOT</td><td>1</td><td>1</td></tr><tr><td>AND</td><td>2</td><td>3</td></tr><tr><td>OR</td><td>3</td><td>2</td></tr><tr><td>XOR</td><td>4</td><td>5</td></tr><tr><td>XNOR</td><td>5</td><td>4</td></tr></tbody></table></div>
+<p>To create a NOT Gate Only 1 NAND / NOR gate is required, only 1 input is given.</p>
+<p><img src="/assets/images/2022-09-21-14-26-11.png"></p>
+<p><img src="/assets/images/2022-09-21-14-27-07.png"></p>
+<p><img src="/assets/images/2022-09-21-14-27-29.png"></p>
+<p><img src="/assets/images/2022-09-21-14-28-34.png"></p>
+<hr>
+<h1 id="boolean-algebra"><a aria-hidden="true" class="anchor-heading icon-link" href="#boolean-algebra"></a>Boolean Algebra</h1>
+<p><a href="https://www.youtube.com/watch?v=A2yWB_Zgutk&#x26;list=PLUhebcqFf6aEm07MOovpDrXcyxfNNZgGi&#x26;index=6">Binary Arithmetic Video</a></p>
+<h4 id="1-commutative-law"><a aria-hidden="true" class="anchor-heading icon-link" href="#1-commutative-law"></a>1. Commutative Law</h4>
+<p>A + B = B + A
+A.B = B.A</p>
+<h4 id="2-associative-law"><a aria-hidden="true" class="anchor-heading icon-link" href="#2-associative-law"></a>2. Associative Law</h4>
+<p>A + (B + C) = (A + B) + C
+A.(B.C) = (A.B).C</p>
+<h4 id="3-distributive-law"><a aria-hidden="true" class="anchor-heading icon-link" href="#3-distributive-law"></a>3. Distributive Law</h4>
+<p>A.(B + C) = A.B + A.C
+A + (B . C) = (A+B) . (A+C)</p>
+<h4 id="binary-addition"><a aria-hidden="true" class="anchor-heading icon-link" href="#binary-addition"></a>Binary Addition</h4>
+<pre><code>0 + 0 = 1
+1 + 0 = 1
+1 + 1 = 10
+</code></pre>
+<p>Example : 1010 + 0111</p>
+<p><img src="/assets/images/2022-09-21-14-30-37.png"></p>
+<h4 id="binary-subtraction"><a aria-hidden="true" class="anchor-heading icon-link" href="#binary-subtraction"></a>Binary Subtraction</h4>
+<pre><code>0 - 0 = 0
+1 - 0 = 1
+1 - 1 = 0
+</code></pre>
+<p>0 - 1 = In this case 0 becomes 10 &#x26; the previous column if 1 becomes 0. We borrow 1 from a nearby column.</p>
+<p>Example 1 :</p>
+<p><img src="/assets/images/2022-09-21-14-31-12.png"></p>
+<p>Example 2 :</p>
+<p><img src="/assets/images/2022-09-21-14-31-46.png"></p>
+<h4 id="de-morgans-theorem"><a aria-hidden="true" class="anchor-heading icon-link" href="#de-morgans-theorem"></a>De Morgans Theorem</h4>
+<p><img src="/assets/images/2022-09-21-14-32-14.png"></p>
+<p>The above bar means complement(')
+Example : (X+Y)' = X' . Y'</p>
+<h4 id="rules-of-boolean-algebra"><a aria-hidden="true" class="anchor-heading icon-link" href="#rules-of-boolean-algebra"></a>Rules of boolean algebra</h4>
+<p><img src="/assets/images/2022-09-21-14-32-40.png"></p>
+<p>This <a href="https://youtu.be/Jmtl4kkP_WA?t=3264">video</a> has important rules explaination.</p>
+<p><img src="/assets/images/2022-09-21-14-33-03.png"></p>
+<p><img src="/assets/images/2022-09-21-14-33-27.png"></p>
+<p><img src="/assets/images/2022-09-21-14-33-54.png"></p></div></div><div style="padding-left:10px;padding-right:10px" class="ant-col ant-col-xs-0 ant-col-md-6"><div><div class=""><div class="ant-anchor-wrapper dendron-toc" style="max-height:calc(100vh - 64px);z-index:1"><div class="ant-anchor"><div class="ant-anchor-ink"><span class="ant-anchor-ink-ball"></span></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#conversion-formulas" title="Conversion Formulas">Conversion Formulas</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#binary-to-octal--vice-versa-" title="Binary to Octal &amp; vice versa :">Binary to Octal &amp; vice versa :</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#example-2--56-to-binary-" title="example 2 : 56 to binary .">example 2 : 56 to binary .</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#binary-to-hexadecimal--vice-versa-" title="Binary to Hexadecimal &amp; vice versa :">Binary to Hexadecimal &amp; vice versa :</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#logic-gate" title="Logic Gate">Logic Gate</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#basic-gates" title="Basic GATES">Basic GATES</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#and" title="AND">AND</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#or" title="OR">OR</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#not" title="NOT">NOT</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#universal-gates" title="Universal GATES">Universal GATES</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#nand" title="NAND">NAND</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#nor" title="NOR">NOR</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#arithmetic-gates" title="Arithmetic GATES">Arithmetic GATES</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#xor" title="XOR">XOR</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#x-nor" title="X-NOR">X-NOR</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#truth-table" title="Truth Table">Truth Table</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#implement-all-gates-using-nand--nor-gate" title="Implement all Gates using NAND &amp; NOR Gate">Implement all Gates using NAND &amp; NOR Gate</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#boolean-algebra" title="Boolean Algebra">Boolean Algebra</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#1-commutative-law" title="1. Commutative Law">1. Commutative Law</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#2-associative-law" title="2. Associative Law">2. Associative Law</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#3-distributive-law" title="3. Distributive Law">3. Distributive Law</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#binary-addition" title="Binary Addition">Binary Addition</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#binary-subtraction" title="Binary Subtraction">Binary Subtraction</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#de-morgans-theorem" title="De Morgans Theorem">De Morgans Theorem</a></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#rules-of-boolean-algebra" title="Rules of boolean algebra">Rules of boolean algebra</a></div></div></div></div></div></div></div></div></div></div><div class="ant-divider ant-divider-horizontal" role="separator"></div><footer class="ant-layout-footer" style="padding:0 24px 24px"></footer></main></section></section></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"note":{"id":"gx0wes5gz0irclfjvffusa4","title":"Computer Architecture","desc":"","updated":1663751038806,"created":1663750024466,"custom":{},"fname":"computer-architecture","type":"note","vault":{"fsPath":".","selfContained":true,"name":"exam-notes"},"contentHash":"fe6f84a4cc32caf7acb4b4ca60e09dfb","links":[],"anchors":{"conversion-formulas":{"type":"header","text":"Conversion Formulas","value":"conversion-formulas","line":14,"column":0,"depth":1},"binary-to-octal--vice-versa-":{"type":"header","text":"Binary to Octal \u0026 vice versa :","value":"binary-to-octal--vice-versa-","line":21,"column":0,"depth":2},"example-2--56-to-binary-":{"type":"header","text":"example 2 : 56 to binary .","value":"example-2--56-to-binary-","line":84,"column":0,"depth":3},"binary-to-hexadecimal--vice-versa-":{"type":"header","text":"Binary to Hexadecimal \u0026 vice versa :","value":"binary-to-hexadecimal--vice-versa-","line":90,"column":0,"depth":2},"logic-gate":{"type":"header","text":"Logic Gate","value":"logic-gate","line":144,"column":0,"depth":1},"basic-gates":{"type":"header","text":"Basic GATES","value":"basic-gates","line":149,"column":0,"depth":2},"and":{"type":"header","text":"AND","value":"and","line":151,"column":0,"depth":3},"or":{"type":"header","text":"OR","value":"or","line":162,"column":0,"depth":3},"not":{"type":"header","text":"NOT","value":"not","line":166,"column":0,"depth":3},"universal-gates":{"type":"header","text":"Universal GATES","value":"universal-gates","line":172,"column":0,"depth":2},"nand":{"type":"header","text":"NAND","value":"nand","line":176,"column":0,"depth":3},"nor":{"type":"header","text":"NOR","value":"nor","line":187,"column":0,"depth":3},"arithmetic-gates":{"type":"header","text":"Arithmetic GATES","value":"arithmetic-gates","line":191,"column":0,"depth":2},"xor":{"type":"header","text":"XOR","value":"xor","line":193,"column":0,"depth":3},"x-nor":{"type":"header","text":"X-NOR","value":"x-nor","line":197,"column":0,"depth":3},"truth-table":{"type":"header","text":"Truth Table","value":"truth-table","line":201,"column":0,"depth":2},"implement-all-gates-using-nand--nor-gate":{"type":"header","text":"Implement all Gates using NAND \u0026 NOR Gate","value":"implement-all-gates-using-nand--nor-gate","line":214,"column":0,"depth":1},"boolean-algebra":{"type":"header","text":"Boolean Algebra","value":"boolean-algebra","line":238,"column":0,"depth":1},"1-commutative-law":{"type":"header","text":"1. Commutative Law","value":"1-commutative-law","line":242,"column":0,"depth":4},"2-associative-law":{"type":"header","text":"2. Associative Law","value":"2-associative-law","line":247,"column":0,"depth":4},"3-distributive-law":{"type":"header","text":"3. Distributive Law","value":"3-distributive-law","line":252,"column":0,"depth":4},"binary-addition":{"type":"header","text":"Binary Addition","value":"binary-addition","line":257,"column":0,"depth":4},"binary-subtraction":{"type":"header","text":"Binary Subtraction","value":"binary-subtraction","line":269,"column":0,"depth":4},"de-morgans-theorem":{"type":"header","text":"De Morgans Theorem","value":"de-morgans-theorem","line":287,"column":0,"depth":4},"rules-of-boolean-algebra":{"type":"header","text":"Rules of boolean algebra","value":"rules-of-boolean-algebra","line":294,"column":0,"depth":4}},"children":[],"parent":"gjr379x4uby1klukcwuuafc","data":{}},"body":"\u003ch1 id=\"computer-architecture\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#computer-architecture\"\u003e\u003c/a\u003eComputer Architecture\u003c/h1\u003e\n\u003col\u003e\n\u003cli\u003eDecimal (0-9) Base 10\u003c/li\u003e\n\u003cli\u003eBinary 0,1 Base 2\u003c/li\u003e\n\u003cli\u003eOctal 0-7 Base 8\u003c/li\u003e\n\u003cli\u003eHexadecimal 0-9,A-F\nUse this \u003ca href=\"https://youtu.be/NY2gz_Kzc0Q\"\u003evideo\u003c/a\u003e as a reference.\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch1 id=\"conversion-formulas\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#conversion-formulas\"\u003e\u003c/a\u003eConversion Formulas\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eBinary \u003cspan class=\"math math-inline\"\u003e\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmsup\u003e\u003cmn\u003e2\u003c/mn\u003e\u003cmn\u003e1\u003c/mn\u003e\u003c/msup\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e2^1\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8141em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord\"\u003e2\u003c/span\u003e\u003cspan class=\"msupsub\"\u003e\u003cspan class=\"vlist-t\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.8141em;\"\u003e\u003cspan style=\"top:-3.063em;margin-right:0.05em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:2.7em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/li\u003e\n\u003cli\u003eOctal \u003cspan class=\"math math-inline\"\u003e\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmsup\u003e\u003cmn\u003e2\u003c/mn\u003e\u003cmn\u003e3\u003c/mn\u003e\u003c/msup\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e2^3\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8141em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord\"\u003e2\u003c/span\u003e\u003cspan class=\"msupsub\"\u003e\u003cspan class=\"vlist-t\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.8141em;\"\u003e\u003cspan style=\"top:-3.063em;margin-right:0.05em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:2.7em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e3\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/li\u003e\n\u003cli\u003eHex \u003cspan class=\"math math-inline\"\u003e\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmsup\u003e\u003cmn\u003e2\u003c/mn\u003e\u003cmn\u003e4\u003c/mn\u003e\u003c/msup\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e2^4\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8141em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord\"\u003e2\u003c/span\u003e\u003cspan class=\"msupsub\"\u003e\u003cspan class=\"vlist-t\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.8141em;\"\u003e\u003cspan style=\"top:-3.063em;margin-right:0.05em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:2.7em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e4\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/li\u003e\n\u003cli\u003eDec 2\u003csup\u003e10\u003c/sup\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"binary-to-octal--vice-versa-\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#binary-to-octal--vice-versa-\"\u003e\u003c/a\u003eBinary to Octal \u0026#x26; vice versa :\u003c/h2\u003e\n\u003cp\u003eSince Octal is 2\u003csup\u003e3\u003c/sup\u003e therefore the table will have 3 columns. Also Since octal means 8 therefore half of 8 is 4 \u0026#x26; that means in the 1st column 1st 4 digits would be 0. In the 2nd column 1st 2 digits (half of 4) would be 0. In the 3rd Column 1st 1 digit(half of 2) would be 0.\u003c/p\u003e\n\u003cdiv class=\"table-responsive\"\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003ctable\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003eOctal\u003c/th\u003e\u003cth\u003e\u003c/th\u003e\u003cth\u003e\u003c/th\u003e\u003cth\u003e\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e2\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e3\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e4\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e5\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e6\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e7\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e\n\u003cp\u003e\u003cstrong\u003eBinary to Octal\u003c/strong\u003e : Select the 3 digits from ==right to left== (left of decimal point) \u0026#x26; ==left to right== (right of decimal point) \u0026#x26; convert it to octal one by one.\u003c/p\u003e\n\u003cp\u003eExample 1 : (1010)\u003csub\u003e2\u003c/sub\u003e to Octal.\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003elast 3 digits of 1010 , is 010. Now from the table \u003cstrong\u003e010 is 2\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eNow only one digit 1 is remaining. To convert it I will add 2 more 0s in left of 1 to make it 3digit , 001. Now 001 is 1.\u003c/li\u003e\n\u003cli\u003eSo the octal is (12)\u003csub\u003e8\u003c/sub\u003e since we are going from right to left.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eExample 2 : (110010110.10101)\u003csub\u003e2\u003c/sub\u003e to octal.\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eFirst lets convert digits left of decimal point\u003c/li\u003e\n\u003cli\u003elast 3 digits 110 is 6.\u003c/li\u003e\n\u003cli\u003ethen 010 is 2.\u003c/li\u003e\n\u003cli\u003ethen 110 is 6.\u003c/li\u003e\n\u003cli\u003eNow lets convert digits right of decimal point\u003c/li\u003e\n\u003cli\u003efirst 3 digits 101 is 5.\u003c/li\u003e\n\u003cli\u003enext 01 remains , let's make it 3 digits by adding 0 at the end. Now it is 010 which is 2.\u003c/li\u003e\n\u003cli\u003eSo the octal number is (626.52)\u003csub\u003e8\u003c/sub\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eShortcuts :\nBinary : 11101101 to octal. The trick is to take 3 digits from right to left 1by1 \u0026#x26; compare them with this table \u0026#x26; add the digits .\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-18-26.png\"\u003e\u003c/p\u003e\n\u003cp\u003eSelect the last 3 digits 101 \u0026#x26; its octal is 4+1 = 5. Similiarly 101 will be 5 \u0026#x26; the remaining 11 , I will add 0 in the start \u0026#x26; 011 will be 2+1 = 3. So the octal is 355.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eOctal to Binary\u003c/strong\u003e : Select digits one by one from right to left \u0026#x26; convert them to binary.\nExample 1: (67)\u003csub\u003e8\u003c/sub\u003e to Binary\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e7 is 111\u003c/li\u003e\n\u003cli\u003e6 is 110\u003c/li\u003e\n\u003cli\u003e67 is (110111)\u003csub\u003e2\u003c/sub\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eExample 2 : (67.62)\u003csub\u003e8\u003c/sub\u003e to Binary\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eFirst convert digits on left of decimal\n\u003col\u003e\n\u003cli\u003e7 is 111\u003c/li\u003e\n\u003cli\u003e6 is 110\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eThen convert digits right of decimal\n\u003col\u003e\n\u003cli\u003e6 is 110\u003c/li\u003e\n\u003cli\u003e2 is 010\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eThen the binary is (110111.110010)\u003csub\u003e2\u003c/sub\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e\u003cem\u003eShortcuts\u003c/em\u003e :\nexample 1: 24 to binary. The trick is to take 1 digit from right to left 1by1 \u0026#x26; compare them with this table \u0026#x26; write the digits . 4 is 100 \u0026#x26; 2 is 10 but we will ad 0 in start to make it 3 digit. Therefore the binary is 010100\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-19-19.png\"\u003e\u003c/p\u003e\n\u003ch3 id=\"example-2--56-to-binary-\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#example-2--56-to-binary-\"\u003e\u003c/a\u003eexample 2 : 56 to binary .\u003c/h3\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-20-04.png\"\u003e\u003c/p\u003e\n\u003cp\u003eNote : Octal numbers are from 0 to 7 so we can covert them with this formula way to easily.\u003c/p\u003e\n\u003ch2 id=\"binary-to-hexadecimal--vice-versa-\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#binary-to-hexadecimal--vice-versa-\"\u003e\u003c/a\u003eBinary to Hexadecimal \u0026#x26; vice versa :\u003c/h2\u003e\n\u003cp\u003eSince Hexadecimal is 2\u003csup\u003e4\u003c/sup\u003e therefore the table will have 4 columns. Also Since hexadecimal means 16 therefore half of 16 is 8 \u0026#x26; that means in the 1st column 1st 8 digits would be 0. In the 2nd column 1st 4 digits (half of 8) would be 0. In the 3rd Column 1st 1 digit(half of 2) would be 0.\u003c/p\u003e\n\u003cdiv class=\"table-responsive\"\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003ctable\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e\u003c/th\u003e\u003cth\u003eHexa\u003c/th\u003e\u003cth\u003edecimal\u003c/th\u003e\u003cth\u003eto\u003c/th\u003e\u003cth\u003eBinary\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e2\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e3\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e4\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e5\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e6\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e7\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e8\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e9\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eA\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eB\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eC\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eD\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eE\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eF\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e\n\u003cp\u003e\u003cstrong\u003eBinary to Hexadecimal\u003c/strong\u003e : Select 4 digits from right to left \u0026#x26; convert them to hexadecimal.\u003c/p\u003e\n\u003cp\u003eExample 1 : (11010110)\u003csub\u003e2\u003c/sub\u003e to Hexadecimal\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003elast 4 digits are 0110 , hexa is 6.\u003c/li\u003e\n\u003cli\u003enext 4 digits is D\u003c/li\u003e\n\u003cli\u003eso the hexa is (D6)\u003csub\u003e16\u003c/sub\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eExample 2 : (11010110.1101)\u003csub\u003e2\u003c/sub\u003e to hexa\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003efirst convert digits before decimal point. It is D6\u003c/li\u003e\n\u003cli\u003edigits after decimal is D\u003c/li\u003e\n\u003cli\u003ethe final hexa is (D6.D)\u003csub\u003e16\u003c/sub\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e\u003cstrong\u003eHexadecimal to Binary\u003c/strong\u003e : Select Digits 1 by 1 from right to left \u0026#x26; convert to binary from above table.\u003c/p\u003e\n\u003cp\u003eExample 1 : (EF2) to binary\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e2 is 0010\u003c/li\u003e\n\u003cli\u003eF is 1111\u003c/li\u003e\n\u003cli\u003eE is 1110\u003c/li\u003e\n\u003cli\u003e111011110010 is binary of EF2\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e\u003cem\u003eShortcuts\u003c/em\u003e :\nSimiliar process like octal shortcut\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-21-02.png\"\u003e\n\u003cimg src=\"/assets/images/2022-09-21-14-21-17.png\"\u003e\u003c/p\u003e\n\u003chr\u003e\n\u003ch1 id=\"logic-gate\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#logic-gate\"\u003e\u003c/a\u003eLogic Gate\u003c/h1\u003e\n\u003cpre\u003e\u003ccode\u003e0 means Low / False\n1 means High / True\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2 id=\"basic-gates\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#basic-gates\"\u003e\u003c/a\u003eBasic GATES\u003c/h2\u003e\n\u003ch3 id=\"and\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#and\"\u003e\u003c/a\u003eAND\u003c/h3\u003e\n\u003cp\u003eThis GATE returns 1 only if both the inputs are 1 otherwise 0. If 1 of the input is 0 then the output will be 0. The symbol of AND gate is \u003ccode\u003e.\u003c/code\u003e , \u003ccode\u003e\u0026#x26;\u003c/code\u003e , \u003ccode\u003e^\u003c/code\u003e\u003c/p\u003e\n\u003cdiv class=\"table-responsive\"\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003ctable\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003eA\u003c/th\u003e\u003cth\u003eB\u003c/th\u003e\u003cth\u003eY = A.B\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e\n\u003ch3 id=\"or\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#or\"\u003e\u003c/a\u003eOR\u003c/h3\u003e\n\u003cp\u003eThis GATE returns 1 if one of the input is 1 then output will be 1. It will return 0 only if both the inputs are 0. The symbol to represent OR Gate is \u003ccode\u003e+\u003c/code\u003e\u003c/p\u003e\n\u003ch3 id=\"not\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#not\"\u003e\u003c/a\u003eNOT\u003c/h3\u003e\n\u003cp\u003eThis GATE takes \u003cstrong\u003eSingle\u003c/strong\u003e Input \u0026#x26; returns \u003cstrong\u003eSingle\u003c/strong\u003e Output. Whatever the input is output willbe exact opposite. Example : input 0 then output 1, input 1 then output 0.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-23-13.png\"\u003e\u003c/p\u003e\n\u003ch2 id=\"universal-gates\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#universal-gates\"\u003e\u003c/a\u003eUniversal GATES\u003c/h2\u003e\n\u003cp\u003eA universal gate is a gate which can implement any Boolean function without need to use any other gate type.\u003c/p\u003e\n\u003ch3 id=\"nand\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#nand\"\u003e\u003c/a\u003eNAND\u003c/h3\u003e\n\u003cp\u003eWhatever the output of AND is just opposite of that. Example below (here Y' repesents Output of NAND Gate):\u003c/p\u003e\n\u003cdiv class=\"table-responsive\"\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003ctable\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003eA\u003c/th\u003e\u003cth\u003eB\u003c/th\u003e\u003cth\u003eY = A.B\u003c/th\u003e\u003cth\u003eY'\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e\n\u003ch3 id=\"nor\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#nor\"\u003e\u003c/a\u003eNOR\u003c/h3\u003e\n\u003cp\u003eWhatever the output of OR is just opposite of that.\u003c/p\u003e\n\u003ch2 id=\"arithmetic-gates\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#arithmetic-gates\"\u003e\u003c/a\u003eArithmetic GATES\u003c/h2\u003e\n\u003ch3 id=\"xor\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#xor\"\u003e\u003c/a\u003eXOR\u003c/h3\u003e\n\u003cp\u003eEx OR Means Exclusive OR . The eqn of XOR is \u003ccode\u003eA . B' + A' . B\u003c/code\u003e . If Inputs aresame tehno output is 0 otehrwise 1.\u003c/p\u003e\n\u003ch3 id=\"x-nor\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#x-nor\"\u003e\u003c/a\u003eX-NOR\u003c/h3\u003e\n\u003cp\u003eMeans Exclusive NOR . The eqn of XOR is \u003ccode\u003eA . B + A' . B'\u003c/code\u003e\u003c/p\u003e\n\u003ch2 id=\"truth-table\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#truth-table\"\u003e\u003c/a\u003eTruth Table\u003c/h2\u003e\n\u003cdiv class=\"table-responsive\"\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003ctable\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003eA\u003c/th\u003e\u003cth\u003eB\u003c/th\u003e\u003cth\u003eAND (A.B)\u003c/th\u003e\u003cth\u003eOR (A+B)\u003c/th\u003e\u003cth\u003eNAND\u003c/th\u003e\u003cth\u003eNOR\u003c/th\u003e\u003cth\u003eXOR\u003c/th\u003e\u003cth\u003eX-NOR\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e0\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e\n\u003cp\u003e...\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-25-23.png\"\u003e\u003c/p\u003e\n\u003ch1 id=\"implement-all-gates-using-nand--nor-gate\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#implement-all-gates-using-nand--nor-gate\"\u003e\u003c/a\u003eImplement all Gates using NAND \u0026#x26; NOR Gate\u003c/h1\u003e\n\u003cp\u003eBuilding different gates using The NAND or NOR Gates. A simple Table from this \u003ca href=\"https://www.youtube.com/watch?v=w2hK0JVKmJc\"\u003evideo\u003c/a\u003e which states that how many NAND \u0026#x26; NOR Gates are required to create the other mentioned gates.\u003c/p\u003e\n\u003cdiv class=\"table-responsive\"\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003ctable\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003eGates\u003c/th\u003e\u003cth\u003eNAND\u003c/th\u003e\u003cth\u003eNOR\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eNOT\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eAND\u003c/td\u003e\u003ctd\u003e2\u003c/td\u003e\u003ctd\u003e3\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eOR\u003c/td\u003e\u003ctd\u003e3\u003c/td\u003e\u003ctd\u003e2\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eXOR\u003c/td\u003e\u003ctd\u003e4\u003c/td\u003e\u003ctd\u003e5\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eXNOR\u003c/td\u003e\u003ctd\u003e5\u003c/td\u003e\u003ctd\u003e4\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e\n\u003cp\u003eTo create a NOT Gate Only 1 NAND / NOR gate is required, only 1 input is given.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-26-11.png\"\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-27-07.png\"\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-27-29.png\"\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-28-34.png\"\u003e\u003c/p\u003e\n\u003chr\u003e\n\u003ch1 id=\"boolean-algebra\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#boolean-algebra\"\u003e\u003c/a\u003eBoolean Algebra\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://www.youtube.com/watch?v=A2yWB_Zgutk\u0026#x26;list=PLUhebcqFf6aEm07MOovpDrXcyxfNNZgGi\u0026#x26;index=6\"\u003eBinary Arithmetic Video\u003c/a\u003e\u003c/p\u003e\n\u003ch4 id=\"1-commutative-law\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#1-commutative-law\"\u003e\u003c/a\u003e1. Commutative Law\u003c/h4\u003e\n\u003cp\u003eA + B = B + A\nA.B = B.A\u003c/p\u003e\n\u003ch4 id=\"2-associative-law\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#2-associative-law\"\u003e\u003c/a\u003e2. Associative Law\u003c/h4\u003e\n\u003cp\u003eA + (B + C) = (A + B) + C\nA.(B.C) = (A.B).C\u003c/p\u003e\n\u003ch4 id=\"3-distributive-law\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#3-distributive-law\"\u003e\u003c/a\u003e3. Distributive Law\u003c/h4\u003e\n\u003cp\u003eA.(B + C) = A.B + A.C\nA + (B . C) = (A+B) . (A+C)\u003c/p\u003e\n\u003ch4 id=\"binary-addition\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#binary-addition\"\u003e\u003c/a\u003eBinary Addition\u003c/h4\u003e\n\u003cpre\u003e\u003ccode\u003e0 + 0 = 1\n1 + 0 = 1\n1 + 1 = 10\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eExample : 1010 + 0111\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-30-37.png\"\u003e\u003c/p\u003e\n\u003ch4 id=\"binary-subtraction\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#binary-subtraction\"\u003e\u003c/a\u003eBinary Subtraction\u003c/h4\u003e\n\u003cpre\u003e\u003ccode\u003e0 - 0 = 0\n1 - 0 = 1\n1 - 1 = 0\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e0 - 1 = In this case 0 becomes 10 \u0026#x26; the previous column if 1 becomes 0. We borrow 1 from a nearby column.\u003c/p\u003e\n\u003cp\u003eExample 1 :\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-31-12.png\"\u003e\u003c/p\u003e\n\u003cp\u003eExample 2 :\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-31-46.png\"\u003e\u003c/p\u003e\n\u003ch4 id=\"de-morgans-theorem\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#de-morgans-theorem\"\u003e\u003c/a\u003eDe Morgans Theorem\u003c/h4\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-32-14.png\"\u003e\u003c/p\u003e\n\u003cp\u003eThe above bar means complement(')\nExample : (X+Y)' = X' . Y'\u003c/p\u003e\n\u003ch4 id=\"rules-of-boolean-algebra\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#rules-of-boolean-algebra\"\u003e\u003c/a\u003eRules of boolean algebra\u003c/h4\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-32-40.png\"\u003e\u003c/p\u003e\n\u003cp\u003eThis \u003ca href=\"https://youtu.be/Jmtl4kkP_WA?t=3264\"\u003evideo\u003c/a\u003e has important rules explaination.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-33-03.png\"\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-33-27.png\"\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/assets/images/2022-09-21-14-33-54.png\"\u003e\u003c/p\u003e","noteIndex":{"id":"gjr379x4uby1klukcwuuafc","title":"Root","desc":"","updated":1663749110634,"created":1663740327223,"custom":{"nav_order":0,"permalink":"/"},"fname":"root","type":"note","vault":{"fsPath":".","selfContained":true,"name":"exam-notes"},"contentHash":"f0577dcf4f8c635682dea6fed1600903","links":[],"anchors":{"notes-taken-by-abhik-b-for-competitive-exams":{"type":"header","text":"Notes taken by Abhik B for competitive exams","value":"notes-taken-by-abhik-b-for-competitive-exams","line":8,"column":0,"depth":1}},"children":["keojisysn3fz8lxhbdfcna4","nx2wuyeo5kgob0u4jucsers","gx0wes5gz0irclfjvffusa4"],"parent":null,"data":{},"body":"\n# Notes taken by Abhik B for competitive exams\n"},"collectionChildren":null,"customHeadContent":null,"config":{"version":5,"dev":{"enablePreviewV2":true,"enableSelfContainedVaults":true},"commands":{"lookup":{"note":{"selectionMode":"extract","confirmVaultOnCreate":true,"vaultSelectionModeOnCreate":"smart","leaveTrace":false,"bubbleUpCreateNew":true,"fuzzThreshold":0.2}},"randomNote":{},"insertNoteLink":{"aliasMode":"none","enableMultiSelect":false},"insertNoteIndex":{"enableMarker":false},"copyNoteLink":{"aliasMode":"title"},"templateHierarchy":"template"},"workspace":{"vaults":[{"fsPath":".","selfContained":true,"name":"exam-notes"}],"journal":{"dailyDomain":"daily","name":"journal","dateFormat":"y.MM.dd","addBehavior":"childOfDomain"},"scratch":{"name":"scratch","dateFormat":"y.MM.dd.HHmmss","addBehavior":"asOwnDomain"},"task":{"name":"task","dateFormat":"y.MM.dd","addBehavior":"asOwnDomain","statusSymbols":{"":" ","wip":"w","done":"x","assigned":"a","moved":"m","blocked":"b","delegated":"l","dropped":"d","pending":"y"},"taskCompleteStatus":["done","x"],"prioritySymbols":{"H":"high","M":"medium","L":"low"},"todoIntegration":false,"createTaskSelectionType":"selection2link"},"graph":{"zoomSpeed":1,"createStub":false},"enableAutoCreateOnDefinition":false,"enableXVaultWikiLink":false,"enableRemoteVaultInit":true,"enableUserTags":true,"enableHashTags":true,"workspaceVaultSyncMode":"noCommit","enableAutoFoldFrontmatter":false,"enableEditorDecorations":true,"maxPreviewsCached":10,"maxNoteLength":204800,"enableFullHierarchyNoteTitle":false,"enableSmartRefs":false},"preview":{"enableFMTitle":true,"enableNoteTitleForLink":true,"enableFrontmatterTags":true,"enableHashesForFMTags":false,"enableMermaid":true,"enablePrettyRefs":true,"enableKatex":true,"automaticallyShowPreview":false},"publishing":{"enableFMTitle":true,"enableNoteTitleForLink":true,"enableMermaid":true,"enablePrettyRefs":true,"enableKatex":true,"copyAssets":true,"siteHierarchies":["root"],"writeStubs":false,"siteRootDir":"docs","seo":{"title":"Dendron","description":"Personal Knowledge Space"},"github":{"enableEditLink":true,"editLinkText":"Edit this page on GitHub","editBranch":"main","editViewMode":"tree"},"enableSiteLastModified":true,"enableFrontmatterTags":true,"enableHashesForFMTags":false,"enableRandomlyColoredTags":true,"enableTaskNotes":true,"enablePrettyLinks":true,"siteUrl":"localhost:3000","siteFaviconPath":"favicon.ico","siteIndex":"root"}}},"__N_SSG":true},"page":"/notes/[id]","query":{"id":"gx0wes5gz0irclfjvffusa4"},"buildId":"feL3KV3JtvScbJpYguJNn","isFallback":false,"gsp":true,"scriptLoader":[]}</script></body></html>

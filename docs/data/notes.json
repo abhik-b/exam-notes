@@ -1,0 +1,613 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1663772400259,
+      "created": 1663772400259,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "gjr379x4uby1klukcwuuafc": {
+      "id": "gjr379x4uby1klukcwuuafc",
+      "title": "Root",
+      "desc": "",
+      "updated": 1663749110634,
+      "created": 1663740327223,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "f0577dcf4f8c635682dea6fed1600903",
+      "links": [],
+      "anchors": {
+        "notes-taken-by-abhik-b-for-competitive-exams": {
+          "type": "header",
+          "text": "Notes taken by Abhik B for competitive exams",
+          "value": "notes-taken-by-abhik-b-for-competitive-exams",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "keojisysn3fz8lxhbdfcna4",
+        "nx2wuyeo5kgob0u4jucsers",
+        "gx0wes5gz0irclfjvffusa4"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "gx0wes5gz0irclfjvffusa4": {
+      "id": "gx0wes5gz0irclfjvffusa4",
+      "title": "Computer Architecture",
+      "desc": "",
+      "updated": 1663751038806,
+      "created": 1663750024466,
+      "custom": {},
+      "fname": "computer-architecture",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "fe6f84a4cc32caf7acb4b4ca60e09dfb",
+      "links": [],
+      "anchors": {
+        "conversion-formulas": {
+          "type": "header",
+          "text": "Conversion Formulas",
+          "value": "conversion-formulas",
+          "line": 14,
+          "column": 0,
+          "depth": 1
+        },
+        "binary-to-octal--vice-versa-": {
+          "type": "header",
+          "text": "Binary to Octal & vice versa :",
+          "value": "binary-to-octal--vice-versa-",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "example-2--56-to-binary-": {
+          "type": "header",
+          "text": "example 2 : 56 to binary .",
+          "value": "example-2--56-to-binary-",
+          "line": 84,
+          "column": 0,
+          "depth": 3
+        },
+        "binary-to-hexadecimal--vice-versa-": {
+          "type": "header",
+          "text": "Binary to Hexadecimal & vice versa :",
+          "value": "binary-to-hexadecimal--vice-versa-",
+          "line": 90,
+          "column": 0,
+          "depth": 2
+        },
+        "logic-gate": {
+          "type": "header",
+          "text": "Logic Gate",
+          "value": "logic-gate",
+          "line": 144,
+          "column": 0,
+          "depth": 1
+        },
+        "basic-gates": {
+          "type": "header",
+          "text": "Basic GATES",
+          "value": "basic-gates",
+          "line": 149,
+          "column": 0,
+          "depth": 2
+        },
+        "and": {
+          "type": "header",
+          "text": "AND",
+          "value": "and",
+          "line": 151,
+          "column": 0,
+          "depth": 3
+        },
+        "or": {
+          "type": "header",
+          "text": "OR",
+          "value": "or",
+          "line": 162,
+          "column": 0,
+          "depth": 3
+        },
+        "not": {
+          "type": "header",
+          "text": "NOT",
+          "value": "not",
+          "line": 166,
+          "column": 0,
+          "depth": 3
+        },
+        "universal-gates": {
+          "type": "header",
+          "text": "Universal GATES",
+          "value": "universal-gates",
+          "line": 172,
+          "column": 0,
+          "depth": 2
+        },
+        "nand": {
+          "type": "header",
+          "text": "NAND",
+          "value": "nand",
+          "line": 176,
+          "column": 0,
+          "depth": 3
+        },
+        "nor": {
+          "type": "header",
+          "text": "NOR",
+          "value": "nor",
+          "line": 187,
+          "column": 0,
+          "depth": 3
+        },
+        "arithmetic-gates": {
+          "type": "header",
+          "text": "Arithmetic GATES",
+          "value": "arithmetic-gates",
+          "line": 191,
+          "column": 0,
+          "depth": 2
+        },
+        "xor": {
+          "type": "header",
+          "text": "XOR",
+          "value": "xor",
+          "line": 193,
+          "column": 0,
+          "depth": 3
+        },
+        "x-nor": {
+          "type": "header",
+          "text": "X-NOR",
+          "value": "x-nor",
+          "line": 197,
+          "column": 0,
+          "depth": 3
+        },
+        "truth-table": {
+          "type": "header",
+          "text": "Truth Table",
+          "value": "truth-table",
+          "line": 201,
+          "column": 0,
+          "depth": 2
+        },
+        "implement-all-gates-using-nand--nor-gate": {
+          "type": "header",
+          "text": "Implement all Gates using NAND & NOR Gate",
+          "value": "implement-all-gates-using-nand--nor-gate",
+          "line": 214,
+          "column": 0,
+          "depth": 1
+        },
+        "boolean-algebra": {
+          "type": "header",
+          "text": "Boolean Algebra",
+          "value": "boolean-algebra",
+          "line": 238,
+          "column": 0,
+          "depth": 1
+        },
+        "1-commutative-law": {
+          "type": "header",
+          "text": "1. Commutative Law",
+          "value": "1-commutative-law",
+          "line": 242,
+          "column": 0,
+          "depth": 4
+        },
+        "2-associative-law": {
+          "type": "header",
+          "text": "2. Associative Law",
+          "value": "2-associative-law",
+          "line": 247,
+          "column": 0,
+          "depth": 4
+        },
+        "3-distributive-law": {
+          "type": "header",
+          "text": "3. Distributive Law",
+          "value": "3-distributive-law",
+          "line": 252,
+          "column": 0,
+          "depth": 4
+        },
+        "binary-addition": {
+          "type": "header",
+          "text": "Binary Addition",
+          "value": "binary-addition",
+          "line": 257,
+          "column": 0,
+          "depth": 4
+        },
+        "binary-subtraction": {
+          "type": "header",
+          "text": "Binary Subtraction",
+          "value": "binary-subtraction",
+          "line": 269,
+          "column": 0,
+          "depth": 4
+        },
+        "de-morgans-theorem": {
+          "type": "header",
+          "text": "De Morgans Theorem",
+          "value": "de-morgans-theorem",
+          "line": 287,
+          "column": 0,
+          "depth": 4
+        },
+        "rules-of-boolean-algebra": {
+          "type": "header",
+          "text": "Rules of boolean algebra",
+          "value": "rules-of-boolean-algebra",
+          "line": 294,
+          "column": 0,
+          "depth": 4
+        }
+      },
+      "children": [],
+      "parent": "gjr379x4uby1klukcwuuafc",
+      "data": {}
+    },
+    "nx2wuyeo5kgob0u4jucsers": {
+      "id": "nx2wuyeo5kgob0u4jucsers",
+      "title": "Cloud Computing",
+      "desc": "",
+      "updated": 1663772107103,
+      "created": 1663749154508,
+      "custom": {},
+      "fname": "cloud",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "8e9be80254a6d5ad6ff18a7f92fef8a4",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "cloud",
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "vaultName": "exam-notes"
+          },
+          "value": "cloud",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 28,
+              "offset": 1966
+            },
+            "end": {
+              "line": 27,
+              "column": 37,
+              "offset": 1975
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": true,
+          "to": {
+            "fname": "cloud",
+            "anchorHeader": "PAAS"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "cloud",
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "vaultName": "exam-notes"
+          },
+          "value": "cloud",
+          "position": {
+            "start": {
+              "line": 28,
+              "column": 28,
+              "offset": 2003
+            },
+            "end": {
+              "line": 28,
+              "column": 37,
+              "offset": 2012
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": true,
+          "to": {
+            "fname": "cloud",
+            "anchorHeader": "SAAS"
+          }
+        }
+      ],
+      "anchors": {
+        "nist": {
+          "type": "header",
+          "text": "NIST",
+          "value": "nist",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "service-attributes": {
+          "type": "header",
+          "text": "Service Attributes",
+          "value": "service-attributes",
+          "line": 36,
+          "column": 0,
+          "depth": 3
+        },
+        "service-models": {
+          "type": "header",
+          "text": "Service Models",
+          "value": "service-models",
+          "line": 44,
+          "column": 0,
+          "depth": 2
+        },
+        "iaas": {
+          "type": "header",
+          "text": "IAAS",
+          "value": "iaas",
+          "line": 48,
+          "column": 0,
+          "depth": 3
+        },
+        "paas": {
+          "type": "header",
+          "text": "PAAS",
+          "value": "paas",
+          "line": 59,
+          "column": 0,
+          "depth": 3
+        },
+        "saas": {
+          "type": "header",
+          "text": "SAAS",
+          "value": "saas",
+          "line": 61,
+          "column": 0,
+          "depth": 3
+        },
+        "cloud-cube-model": {
+          "type": "header",
+          "text": "Cloud Cube Model",
+          "value": "cloud-cube-model",
+          "line": 63,
+          "column": 0,
+          "depth": 2
+        },
+        "deployment-models": {
+          "type": "header",
+          "text": "Deployment Models",
+          "value": "deployment-models",
+          "line": 74,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "gjr379x4uby1klukcwuuafc",
+      "data": {}
+    },
+    "keojisysn3fz8lxhbdfcna4": {
+      "id": "keojisysn3fz8lxhbdfcna4",
+      "title": "Artificial Intelligence (AI)",
+      "desc": "",
+      "updated": 1663751768488,
+      "created": 1663751303455,
+      "custom": {},
+      "fname": "ai",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "3ad06c758c1fa47a97e9ba5e77b3907d",
+      "links": [],
+      "anchors": {
+        "linear-algebra--regression--classification": {
+          "type": "header",
+          "text": "Linear Algebra , Regression & Classification",
+          "value": "linear-algebra--regression--classification",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "linear-regression": {
+          "type": "header",
+          "text": "Linear Regression",
+          "value": "linear-regression",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        },
+        "what-is-pytorch-tensor-": {
+          "type": "header",
+          "text": "What is PyTorch Tensor ??",
+          "value": "what-is-pytorch-tensor-",
+          "line": 40,
+          "column": 0,
+          "depth": 3
+        },
+        "batch-sizes": {
+          "type": "header",
+          "text": "Batch Sizes",
+          "value": "batch-sizes",
+          "line": 45,
+          "column": 0,
+          "depth": 3
+        },
+        "in-the-neural-network-terminology": {
+          "type": "header",
+          "text": "In the neural network terminology:",
+          "value": "in-the-neural-network-terminology",
+          "line": 50,
+          "column": 0,
+          "depth": 3
+        },
+        "shuffles": {
+          "type": "header",
+          "text": "Shuffles",
+          "value": "shuffles",
+          "line": 58,
+          "column": 0,
+          "depth": 3
+        },
+        "layers-hand-drawn-numbers-training": {
+          "type": "header",
+          "text": "Layers (Hand Drawn Numbers training)",
+          "value": "layers-hand-drawn-numbers-training",
+          "line": 62,
+          "column": 0,
+          "depth": 3
+        },
+        "feed-forward": {
+          "type": "header",
+          "text": "Feed Forward",
+          "value": "feed-forward",
+          "line": 68,
+          "column": 0,
+          "depth": 3
+        },
+        "training-model": {
+          "type": "header",
+          "text": "Training Model",
+          "value": "training-model",
+          "line": 83,
+          "column": 0,
+          "depth": 3
+        },
+        "neural-net-from-scratch": {
+          "type": "header",
+          "text": "Neural net from scratch",
+          "value": "neural-net-from-scratch",
+          "line": 91,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "gjr379x4uby1klukcwuuafc",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "gjr379x4uby1klukcwuuafc",
+      "title": "Root",
+      "desc": "",
+      "updated": 1663749110634,
+      "created": 1663740327223,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "f0577dcf4f8c635682dea6fed1600903",
+      "links": [],
+      "anchors": {
+        "notes-taken-by-abhik-b-for-competitive-exams": {
+          "type": "header",
+          "text": "Notes taken by Abhik B for competitive exams",
+          "value": "notes-taken-by-abhik-b-for-competitive-exams",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "keojisysn3fz8lxhbdfcna4",
+        "nx2wuyeo5kgob0u4jucsers",
+        "gx0wes5gz0irclfjvffusa4"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\n# Notes taken by Abhik B for competitive exams\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "gjr379x4uby1klukcwuuafc",
+    "title": "Root",
+    "desc": "",
+    "updated": 1663749110634,
+    "created": 1663740327223,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "exam-notes"
+    },
+    "contentHash": "f0577dcf4f8c635682dea6fed1600903",
+    "links": [],
+    "anchors": {
+      "notes-taken-by-abhik-b-for-competitive-exams": {
+        "type": "header",
+        "text": "Notes taken by Abhik B for competitive exams",
+        "value": "notes-taken-by-abhik-b-for-competitive-exams",
+        "line": 8,
+        "column": 0,
+        "depth": 1
+      }
+    },
+    "children": [
+      "keojisysn3fz8lxhbdfcna4",
+      "nx2wuyeo5kgob0u4jucsers",
+      "gx0wes5gz0irclfjvffusa4"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\n# Notes taken by Abhik B for competitive exams\n"
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "exam-notes"
+    }
+  ]
+}

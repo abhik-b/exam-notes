@@ -1,10 +1,3 @@
----
-id: nx2wuyeo5kgob0u4jucsers
-title: Cloud Computing
-desc: ''
-updated: 1663772107103
-created: 1663749154508
----
 
 **Cloud computing** is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user. It is a _pay-per-use_ model.
 

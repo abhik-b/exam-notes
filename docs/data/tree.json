@@ -1,0 +1,38 @@
+{
+  "roots": [
+    {
+      "key": "keojisysn3fz8lxhbdfcna4",
+      "title": "Artificial Intelligence (AI)",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "exam-notes",
+      "children": []
+    },
+    {
+      "key": "nx2wuyeo5kgob0u4jucsers",
+      "title": "Cloud Computing",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "exam-notes",
+      "children": []
+    },
+    {
+      "key": "gx0wes5gz0irclfjvffusa4",
+      "title": "Computer Architecture",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "exam-notes",
+      "children": []
+    }
+  ],
+  "child2parent": {
+    "keojisysn3fz8lxhbdfcna4": null,
+    "nx2wuyeo5kgob0u4jucsers": null,
+    "gx0wes5gz0irclfjvffusa4": null
+  },
+  "notesLabelById": {
+    "keojisysn3fz8lxhbdfcna4": "Artificial Intelligence (AI)",
+    "nx2wuyeo5kgob0u4jucsers": "Cloud Computing",
+    "gx0wes5gz0irclfjvffusa4": "Computer Architecture"
+  }
+}
