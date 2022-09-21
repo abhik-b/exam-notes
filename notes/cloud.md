@@ -1,8 +1,8 @@
 ---
 id: nx2wuyeo5kgob0u4jucsers
-title: Cloud
+title: Cloud Computing
 desc: ''
-updated: 1663749990356
+updated: 1663755526084
 created: 1663749154508
 ---
 
