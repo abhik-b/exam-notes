@@ -115,8 +115,8 @@
     "writeStubs": false,
     "siteRootDir": "docs",
     "seo": {
-      "title": "Dendron",
-      "description": "Personal Knowledge Space"
+      "title": "Abhik B's Exam Notes",
+      "description": "Notes taken while studying computer applications"
     },
     "github": {
       "enableEditLink": true,
