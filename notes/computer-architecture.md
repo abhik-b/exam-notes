@@ -2,7 +2,7 @@
 id: gx0wes5gz0irclfjvffusa4
 title: Computer Architecture
 desc: ''
-updated: 1663751038806
+updated: 1664342620453
 created: 1663750024466
 ---
 
@@ -232,9 +232,7 @@ To create a NOT Gate Only 1 NAND / NOR gate is required, only 1 input is given.
 
 ![](/assets/images/2022-09-21-14-27-29.png)
 
-![](/assets/images/2022-09-21-14-28-34.png)
-
----
+![](/assets/images/2022-09-24-11-09-56.png)
 
 # Boolean Algebra
 
