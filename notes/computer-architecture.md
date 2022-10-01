@@ -2,8 +2,112 @@
 id: gx0wes5gz0irclfjvffusa4
 title: Computer Architecture
 desc: ''
-updated: 1664342620453
+updated: 1664590548851
 created: 1663750024466
+---
+
+## Syllabus
+
+### Digital Logic Circuits & Components :
+
+- Digital Computers
+- Logic Gates
+- Boolean ALgebra
+- Map Simplifications
+- Combinational Circuits
+- Flip-Flops
+- Sequential Circuits
+- Integrated Circuits
+- Decoders
+- Multiplexers
+- Registers
+- Counters
+- Memory Unit
+
+### Data Representation :
+
+- Data Types,
+- Number Systems and Conversion Complements,
+- Fixed Point Representation,
+- Floating-Point Representation,
+- Error Detection Codes,
+- Computer Arithmetic – Addition, Subtraction, Multiplication and Division Algorithms.
+
+### Register Transfer and Micro operations :
+
+- Register Transfer Language,
+- Bus and Memory Transfers,
+- Arithmetic, Logic and Shift Micro operations
+
+### Basic Computer Organization and Design:
+
+- Stored Program Organization and Instruction Codes,
+- Computer Registers,
+- Computer Instructions, Timing and Control,
+- Instruction Cycle,
+- Memory-Reference Instructions,
+- Input-Output, Interrupt.
+
+### Programming the Basic Computer :
+
+- Machine Language,
+- Assembly Language,
+- Assembler,
+- Program Loops,
+- Subroutines,
+- Input-Output Programming.
+
+### Microprogrammed Control:
+
+- Control Memory,
+- Address Sequencing,
+- Design of Control Unit.
+
+### Central Processing Unit:
+
+- General Register Organization,
+- Stack Organization,
+- Instruction Formats,
+- Addressing Modes,
+- RISC Computer,
+- CISC Computer.
+
+### Pipeline and Vector Processing:
+
+- Parallel Processing,
+- Pipelining,
+- Arithmetic Pipeline,
+- Instruction Pipeline,
+- Vector Processing Array Processors.
+
+### Input-Output Organization:
+
+- Peripheral Devices,
+- Input-Output Interface,
+- Asynchronous Data Transfer,
+- Modes of Transfer,
+- Priority Interrupt,
+- DMA,
+- Serial Communication.
+
+### Memory Hierarchy:
+
+- Main Memory,
+- Auxillary Memory,
+- Associative Memory,
+- Cache Memory,
+- Virtual Memory,
+- Memory Management Hardware.
+
+### Multiprocessors:
+
+- Characteristics of Multiprocessors,
+- Interconnection Structures,
+- Interprocessor Arbitration,
+- Interprocessor Communication and Synchronization,
+- Cache Coherence,
+- Multicore Processors.
+
 ---
 
 1. Decimal (0-9) Base 10

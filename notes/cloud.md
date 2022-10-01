@@ -2,7 +2,7 @@
 id: nx2wuyeo5kgob0u4jucsers
 title: Cloud Computing
 desc: ''
-updated: 1664518519201
+updated: 1664547692534
 created: 1663749154508
 ---
 
@@ -52,11 +52,16 @@ Read More about [[cloud.service-models]]
 
 ### Service Attributes
 
-1. **On Demand Self Service** - consumers can unilaterally provision computing capabilities as needed automatically without requiring human interaction with each service provider.
-2. **Broad Network Access** - capabilities are available over the network and accessed through standard mechanism that promote use by heterogeneous thin or thick client platforms.
-3. **Resource Pooling** - The provider’s computing resources are pooled to serve multiple consumers using a multi-tenant model, with different physical and virtual resources dynamically assigned and reassigned according to consumer demand
-4. **Rapid Elasticity** - capabilities can be elastically provisioned and released to scale rapidly outward and inward commensurate with demand.
-5. **Measured Service** - cloud systems automatically control and optimize resource use by leveraging a metering capability at some level of abstraction appropriate to the type of service.
+1. **On Demand Self Service**
+   : consumers can unilaterally provision computing capabilities as needed automatically without requiring human interaction with each service provider.
+2. **Broad Network Access**
+   : capabilities are available over the network and accessed through standard mechanism that promote use by heterogeneous thin or thick client platforms.
+3. **Resource Pooling**
+   :The provider’s computing resources are pooled to serve multiple consumers using a multi-tenant model, with different physical and virtual resources dynamically assigned and reassigned according to consumer demand
+4. **Rapid Elasticity**
+   : capabilities can be elastically provisioned and released to scale rapidly outward and inward commensurate with demand.
+5. **Measured Service**
+   : cloud systems automatically control and optimize resource use by leveraging a metering capability at some level of abstraction appropriate to the type of service.
 
 ## Cloud Cube Model
 
