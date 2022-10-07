@@ -2,13 +2,13 @@
 id: 4t4frfo11yj7dr8558kdhr1
 title: Os
 desc: ''
-updated: 1664593873695
+updated: 1664623819303
 created: 1664590317475
 ---
 
 ## Syllabus
 
-#### Software\*\*:
+#### Software:
 
 Machine, Assembly and High-Level Languages;Compilers and Interpreters;Loading, Linking and Relocation;Macros, Debuggers.
 
@@ -24,36 +24,36 @@ Process Scheduling and Operations;Interprocess Communication,Communication in Cl
 
 Multicore Programming,Multithreading Models,Thread Libraries,Implicit Threading,Threading Issues.
 
-#### CPU Scheduling\*\*:
+#### CPU Scheduling:
 
 Scheduling Criteria and Algorithms;Thread Scheduling,Multiple-Processor Scheduling,Real-Time CPU Scheduling.
 
-#### Deadlocks\*\*:
+#### Deadlocks:
 
 Deadlock Characterization,Methods for Handling Deadlocks,Deadlock Prevention
 Avoidance and Detection;Recovery from Deadlock.
 
-#### Memory Management\*\*:
+#### Memory Management:
 
 Contiguous Memory Allocation,Swapping,Paging,Segmentation,Demand Paging,Page Replacement,Allocation of Frames,Thrashing,Memory-Mapped Files.
 
-#### Storage Management\*\*:
+#### Storage Management:
 
 Mass-Storage Structure,Disk Structure,Scheduling and Management,RAID Structure.
 
-#### File and Input/Output Systems\*\*:
+#### File and Input/Output Systems:
 
 Access Methods, Directory and Disk Structure;File-System Mounting, File Sharing, File-System Structure and Implementation;Directory Implementation, Allocation Methods, Free-Space Management, Efficiency and Performance;Recovery, I/O Hardware, Application I/O Interface, Kernel I/O Subsystem, Transforming I/O Requests to Hardware Operations.
 
-#### Security\*\*:
+#### Security:
 
 Protection, Access Matrix, Access Control, Revocation of Access Rights, Program Threats, System and Network Threats;Cryptography as a Security Tool, User Authentication, Implementing Security Defenses.
 
-#### Virtual Machines\*\*:
+#### Virtual Machines:
 
 Types of Virtual Machines and Implementations;Virtualization.
 
-#### Linux Operating Systems\*\*:
+#### Linux Operating Systems:
 
 Design Principles,Kernel Modules,Process Management,Scheduling,Memory Management,File Systems,Input and Output;Interprocess Communication,Network Structure.
 
