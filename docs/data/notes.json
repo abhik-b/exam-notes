@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1663773793469,
-      "created": 1663773793469,
+      "updated": 1665201755856,
+      "created": 1665201755856,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -24,7 +24,7 @@
       "id": "gjr379x4uby1klukcwuuafc",
       "title": "Root",
       "desc": "",
-      "updated": 1663749110634,
+      "updated": 1664424403234,
       "created": 1663740327223,
       "custom": {
         "nav_order": 0,
@@ -37,7 +37,7 @@
         "selfContained": true,
         "name": "exam-notes"
       },
-      "contentHash": "f0577dcf4f8c635682dea6fed1600903",
+      "contentHash": "57c801f96fa00329063b52177f8e4b08",
       "links": [],
       "anchors": {
         "notes-taken-by-abhik-b-for-competitive-exams": {
@@ -52,16 +52,294 @@
       "children": [
         "keojisysn3fz8lxhbdfcna4",
         "nx2wuyeo5kgob0u4jucsers",
-        "gx0wes5gz0irclfjvffusa4"
+        "gx0wes5gz0irclfjvffusa4",
+        "u8o7ksndu0na9g910fuglx5",
+        "4t4frfo11yj7dr8558kdhr1"
       ],
       "parent": null,
+      "data": {}
+    },
+    "4t4frfo11yj7dr8558kdhr1": {
+      "id": "4t4frfo11yj7dr8558kdhr1",
+      "title": "Os",
+      "desc": "",
+      "updated": 1664623819303,
+      "created": 1664590317475,
+      "custom": {},
+      "fname": "os",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "6bcbfe16997f0ad082dea4d0412e54f7",
+      "links": [],
+      "anchors": {
+        "syllabus": {
+          "type": "header",
+          "text": "Syllabus",
+          "value": "syllabus",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "software": {
+          "type": "header",
+          "text": "Software:",
+          "value": "software",
+          "line": 10,
+          "column": 0,
+          "depth": 4
+        },
+        "basics-of-operating-systems": {
+          "type": "header",
+          "text": "Basics of Operating Systems:",
+          "value": "basics-of-operating-systems",
+          "line": 14,
+          "column": 0,
+          "depth": 4
+        },
+        "process-management": {
+          "type": "header",
+          "text": "Process Management:",
+          "value": "process-management",
+          "line": 18,
+          "column": 0,
+          "depth": 4
+        },
+        "threads": {
+          "type": "header",
+          "text": "Threads:",
+          "value": "threads",
+          "line": 22,
+          "column": 0,
+          "depth": 4
+        },
+        "cpu-scheduling": {
+          "type": "header",
+          "text": "CPU Scheduling:",
+          "value": "cpu-scheduling",
+          "line": 26,
+          "column": 0,
+          "depth": 4
+        },
+        "deadlocks": {
+          "type": "header",
+          "text": "Deadlocks:",
+          "value": "deadlocks",
+          "line": 30,
+          "column": 0,
+          "depth": 4
+        },
+        "memory-management": {
+          "type": "header",
+          "text": "Memory Management:",
+          "value": "memory-management",
+          "line": 35,
+          "column": 0,
+          "depth": 4
+        },
+        "storage-management": {
+          "type": "header",
+          "text": "Storage Management:",
+          "value": "storage-management",
+          "line": 39,
+          "column": 0,
+          "depth": 4
+        },
+        "file-and-inputoutput-systems": {
+          "type": "header",
+          "text": "File and Input/Output Systems:",
+          "value": "file-and-inputoutput-systems",
+          "line": 43,
+          "column": 0,
+          "depth": 4
+        },
+        "security": {
+          "type": "header",
+          "text": "Security:",
+          "value": "security",
+          "line": 47,
+          "column": 0,
+          "depth": 4
+        },
+        "virtual-machines": {
+          "type": "header",
+          "text": "Virtual Machines:",
+          "value": "virtual-machines",
+          "line": 51,
+          "column": 0,
+          "depth": 4
+        },
+        "linux-operating-systems": {
+          "type": "header",
+          "text": "Linux Operating Systems:",
+          "value": "linux-operating-systems",
+          "line": 55,
+          "column": 0,
+          "depth": 4
+        },
+        "windows-operating-systems": {
+          "type": "header",
+          "text": "Windows Operating Systems:",
+          "value": "windows-operating-systems",
+          "line": 59,
+          "column": 0,
+          "depth": 4
+        },
+        "distributed-systems": {
+          "type": "header",
+          "text": "Distributed Systems:",
+          "value": "distributed-systems",
+          "line": 63,
+          "column": 0,
+          "depth": 4
+        },
+        "what-is-software-": {
+          "type": "header",
+          "text": "What is software ?",
+          "value": "what-is-software-",
+          "line": 69,
+          "column": 0,
+          "depth": 2
+        },
+        "different-types-of-software": {
+          "type": "header",
+          "text": "Different types of Software",
+          "value": "different-types-of-software",
+          "line": 73,
+          "column": 0,
+          "depth": 2
+        },
+        "application-software": {
+          "type": "header",
+          "text": "Application Software",
+          "value": "application-software",
+          "line": 75,
+          "column": 0,
+          "depth": 3
+        },
+        "utility-software": {
+          "type": "header",
+          "text": "Utility Software",
+          "value": "utility-software",
+          "line": 80,
+          "column": 0,
+          "depth": 3
+        },
+        "system-software": {
+          "type": "header",
+          "text": "System Software",
+          "value": "system-software",
+          "line": 84,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "gjr379x4uby1klukcwuuafc",
+      "data": {}
+    },
+    "u8o7ksndu0na9g910fuglx5": {
+      "id": "u8o7ksndu0na9g910fuglx5",
+      "title": "Dsa",
+      "desc": "",
+      "updated": 1664590223642,
+      "created": 1664589845722,
+      "custom": {},
+      "fname": "dsa",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "df5eceda6d221ca27f87b59a41d63ff8",
+      "links": [],
+      "anchors": {
+        "syllabus": {
+          "type": "header",
+          "text": "Syllabus",
+          "value": "syllabus",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "data-structures": {
+          "type": "header",
+          "text": "Data Structures:",
+          "value": "data-structures",
+          "line": 10,
+          "column": 0,
+          "depth": 4
+        },
+        "performance-analysis-of-algorithms-and-recurrences": {
+          "type": "header",
+          "text": "Performance Analysis of Algorithms and Recurrences:",
+          "value": "performance-analysis-of-algorithms-and-recurrences",
+          "line": 32,
+          "column": 0,
+          "depth": 4
+        },
+        "design-techniques": {
+          "type": "header",
+          "text": "Design Techniques:",
+          "value": "design-techniques",
+          "line": 38,
+          "column": 0,
+          "depth": 4
+        },
+        "lower-bound-theory": {
+          "type": "header",
+          "text": "Lower Bound Theory:",
+          "value": "lower-bound-theory",
+          "line": 46,
+          "column": 0,
+          "depth": 4
+        },
+        "graph-algorithms": {
+          "type": "header",
+          "text": "Graph Algorithms:",
+          "value": "graph-algorithms",
+          "line": 51,
+          "column": 0,
+          "depth": 4
+        },
+        "complexity-theory": {
+          "type": "header",
+          "text": "Complexity Theory:",
+          "value": "complexity-theory",
+          "line": 59,
+          "column": 0,
+          "depth": 4
+        },
+        "selected-topics": {
+          "type": "header",
+          "text": "Selected Topics:",
+          "value": "selected-topics",
+          "line": 64,
+          "column": 0,
+          "depth": 4
+        },
+        "advanced-algorithms": {
+          "type": "header",
+          "text": "Advanced Algorithms:",
+          "value": "advanced-algorithms",
+          "line": 71,
+          "column": 0,
+          "depth": 4
+        }
+      },
+      "children": [],
+      "parent": "gjr379x4uby1klukcwuuafc",
       "data": {}
     },
     "gx0wes5gz0irclfjvffusa4": {
       "id": "gx0wes5gz0irclfjvffusa4",
       "title": "Computer Architecture",
       "desc": "",
-      "updated": 1663751038806,
+      "updated": 1665119578094,
       "created": 1663750024466,
       "custom": {},
       "fname": "computer-architecture",
@@ -71,14 +349,110 @@
         "selfContained": true,
         "name": "exam-notes"
       },
-      "contentHash": "fe6f84a4cc32caf7acb4b4ca60e09dfb",
+      "contentHash": "9505b71d5397c1397a774a8500a9bc90",
       "links": [],
       "anchors": {
+        "syllabus": {
+          "type": "header",
+          "text": "Syllabus",
+          "value": "syllabus",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "digital-logic-circuits--components-": {
+          "type": "header",
+          "text": "Digital Logic Circuits & Components :",
+          "value": "digital-logic-circuits--components-",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "data-representation-": {
+          "type": "header",
+          "text": "Data Representation :",
+          "value": "data-representation-",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "register-transfer-and-micro-operations-": {
+          "type": "header",
+          "text": "Register Transfer and Micro operations :",
+          "value": "register-transfer-and-micro-operations-",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "basic-computer-organization-and-design": {
+          "type": "header",
+          "text": "Basic Computer Organization and Design:",
+          "value": "basic-computer-organization-and-design",
+          "line": 41,
+          "column": 0,
+          "depth": 3
+        },
+        "programming-the-basic-computer-": {
+          "type": "header",
+          "text": "Programming the Basic Computer :",
+          "value": "programming-the-basic-computer-",
+          "line": 50,
+          "column": 0,
+          "depth": 3
+        },
+        "microprogrammed-control": {
+          "type": "header",
+          "text": "Microprogrammed Control:",
+          "value": "microprogrammed-control",
+          "line": 59,
+          "column": 0,
+          "depth": 3
+        },
+        "central-processing-unit": {
+          "type": "header",
+          "text": "Central Processing Unit:",
+          "value": "central-processing-unit",
+          "line": 65,
+          "column": 0,
+          "depth": 3
+        },
+        "pipeline-and-vector-processing": {
+          "type": "header",
+          "text": "Pipeline and Vector Processing:",
+          "value": "pipeline-and-vector-processing",
+          "line": 74,
+          "column": 0,
+          "depth": 3
+        },
+        "input-output-organization": {
+          "type": "header",
+          "text": "Input-Output Organization:",
+          "value": "input-output-organization",
+          "line": 82,
+          "column": 0,
+          "depth": 3
+        },
+        "memory-hierarchy": {
+          "type": "header",
+          "text": "Memory Hierarchy:",
+          "value": "memory-hierarchy",
+          "line": 92,
+          "column": 0,
+          "depth": 3
+        },
+        "multiprocessors": {
+          "type": "header",
+          "text": "Multiprocessors:",
+          "value": "multiprocessors",
+          "line": 101,
+          "column": 0,
+          "depth": 3
+        },
         "conversion-formulas": {
           "type": "header",
           "text": "Conversion Formulas",
           "value": "conversion-formulas",
-          "line": 14,
+          "line": 118,
           "column": 0,
           "depth": 1
         },
@@ -86,7 +460,7 @@
           "type": "header",
           "text": "Binary to Octal & vice versa :",
           "value": "binary-to-octal--vice-versa-",
-          "line": 21,
+          "line": 125,
           "column": 0,
           "depth": 2
         },
@@ -94,7 +468,7 @@
           "type": "header",
           "text": "example 2 : 56 to binary .",
           "value": "example-2--56-to-binary-",
-          "line": 84,
+          "line": 188,
           "column": 0,
           "depth": 3
         },
@@ -102,7 +476,7 @@
           "type": "header",
           "text": "Binary to Hexadecimal & vice versa :",
           "value": "binary-to-hexadecimal--vice-versa-",
-          "line": 90,
+          "line": 194,
           "column": 0,
           "depth": 2
         },
@@ -110,7 +484,7 @@
           "type": "header",
           "text": "Logic Gate",
           "value": "logic-gate",
-          "line": 144,
+          "line": 248,
           "column": 0,
           "depth": 1
         },
@@ -118,7 +492,7 @@
           "type": "header",
           "text": "Basic GATES",
           "value": "basic-gates",
-          "line": 149,
+          "line": 253,
           "column": 0,
           "depth": 2
         },
@@ -126,7 +500,7 @@
           "type": "header",
           "text": "AND",
           "value": "and",
-          "line": 151,
+          "line": 255,
           "column": 0,
           "depth": 3
         },
@@ -134,7 +508,7 @@
           "type": "header",
           "text": "OR",
           "value": "or",
-          "line": 162,
+          "line": 266,
           "column": 0,
           "depth": 3
         },
@@ -142,7 +516,7 @@
           "type": "header",
           "text": "NOT",
           "value": "not",
-          "line": 166,
+          "line": 270,
           "column": 0,
           "depth": 3
         },
@@ -150,7 +524,7 @@
           "type": "header",
           "text": "Universal GATES",
           "value": "universal-gates",
-          "line": 172,
+          "line": 276,
           "column": 0,
           "depth": 2
         },
@@ -158,7 +532,7 @@
           "type": "header",
           "text": "NAND",
           "value": "nand",
-          "line": 176,
+          "line": 280,
           "column": 0,
           "depth": 3
         },
@@ -166,7 +540,7 @@
           "type": "header",
           "text": "NOR",
           "value": "nor",
-          "line": 187,
+          "line": 291,
           "column": 0,
           "depth": 3
         },
@@ -174,7 +548,7 @@
           "type": "header",
           "text": "Arithmetic GATES",
           "value": "arithmetic-gates",
-          "line": 191,
+          "line": 295,
           "column": 0,
           "depth": 2
         },
@@ -182,7 +556,7 @@
           "type": "header",
           "text": "XOR",
           "value": "xor",
-          "line": 193,
+          "line": 297,
           "column": 0,
           "depth": 3
         },
@@ -190,7 +564,7 @@
           "type": "header",
           "text": "X-NOR",
           "value": "x-nor",
-          "line": 197,
+          "line": 301,
           "column": 0,
           "depth": 3
         },
@@ -198,7 +572,7 @@
           "type": "header",
           "text": "Truth Table",
           "value": "truth-table",
-          "line": 201,
+          "line": 305,
           "column": 0,
           "depth": 2
         },
@@ -206,7 +580,7 @@
           "type": "header",
           "text": "Implement all Gates using NAND & NOR Gate",
           "value": "implement-all-gates-using-nand--nor-gate",
-          "line": 214,
+          "line": 318,
           "column": 0,
           "depth": 1
         },
@@ -214,7 +588,7 @@
           "type": "header",
           "text": "Boolean Algebra",
           "value": "boolean-algebra",
-          "line": 238,
+          "line": 340,
           "column": 0,
           "depth": 1
         },
@@ -222,7 +596,7 @@
           "type": "header",
           "text": "1. Commutative Law",
           "value": "1-commutative-law",
-          "line": 242,
+          "line": 344,
           "column": 0,
           "depth": 4
         },
@@ -230,7 +604,7 @@
           "type": "header",
           "text": "2. Associative Law",
           "value": "2-associative-law",
-          "line": 247,
+          "line": 349,
           "column": 0,
           "depth": 4
         },
@@ -238,7 +612,7 @@
           "type": "header",
           "text": "3. Distributive Law",
           "value": "3-distributive-law",
-          "line": 252,
+          "line": 354,
           "column": 0,
           "depth": 4
         },
@@ -246,7 +620,7 @@
           "type": "header",
           "text": "Binary Addition",
           "value": "binary-addition",
-          "line": 257,
+          "line": 359,
           "column": 0,
           "depth": 4
         },
@@ -254,7 +628,7 @@
           "type": "header",
           "text": "Binary Subtraction",
           "value": "binary-subtraction",
-          "line": 269,
+          "line": 371,
           "column": 0,
           "depth": 4
         },
@@ -262,7 +636,7 @@
           "type": "header",
           "text": "De Morgans Theorem",
           "value": "de-morgans-theorem",
-          "line": 287,
+          "line": 389,
           "column": 0,
           "depth": 4
         },
@@ -270,7 +644,7 @@
           "type": "header",
           "text": "Rules of boolean algebra",
           "value": "rules-of-boolean-algebra",
-          "line": 294,
+          "line": 396,
           "column": 0,
           "depth": 4
         }
@@ -283,7 +657,7 @@
       "id": "nx2wuyeo5kgob0u4jucsers",
       "title": "Cloud Computing",
       "desc": "",
-      "updated": 1663772107103,
+      "updated": 1664547692534,
       "created": 1663749154508,
       "custom": {},
       "fname": "cloud",
@@ -293,7 +667,7 @@
         "selfContained": true,
         "name": "exam-notes"
       },
-      "contentHash": "8e9be80254a6d5ad6ff18a7f92fef8a4",
+      "contentHash": "12335694703cadb788bbe7fc19d6b86e",
       "links": [
         {
           "type": "wiki",
@@ -302,25 +676,25 @@
             "id": "nx2wuyeo5kgob0u4jucsers",
             "vaultName": "exam-notes"
           },
-          "value": "cloud",
+          "value": "cloud.service-models",
+          "alias": "IAAS",
           "position": {
             "start": {
-              "line": 27,
-              "column": 28,
-              "offset": 1966
+              "line": 39,
+              "column": 34,
+              "offset": 2247
             },
             "end": {
-              "line": 27,
-              "column": 37,
-              "offset": 1975
+              "line": 39,
+              "column": 63,
+              "offset": 2276
             },
             "indent": []
           },
           "xvault": false,
-          "sameFile": true,
+          "sameFile": false,
           "to": {
-            "fname": "cloud",
-            "anchorHeader": "PAAS"
+            "fname": "cloud.service-models"
           }
         },
         {
@@ -330,74 +704,152 @@
             "id": "nx2wuyeo5kgob0u4jucsers",
             "vaultName": "exam-notes"
           },
-          "value": "cloud",
+          "value": "cloud.service-models",
+          "alias": "PAAS",
           "position": {
             "start": {
-              "line": 28,
+              "line": 40,
               "column": 28,
-              "offset": 2003
+              "offset": 2304
             },
             "end": {
-              "line": 28,
-              "column": 37,
-              "offset": 2012
+              "line": 40,
+              "column": 62,
+              "offset": 2338
             },
             "indent": []
           },
           "xvault": false,
-          "sameFile": true,
+          "sameFile": false,
           "to": {
+            "fname": "cloud.service-models",
+            "anchorHeader": "paas"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
             "fname": "cloud",
-            "anchorHeader": "SAAS"
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "vaultName": "exam-notes"
+          },
+          "value": "cloud.service-models",
+          "alias": "SAAS",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 28,
+              "offset": 2366
+            },
+            "end": {
+              "line": 41,
+              "column": 62,
+              "offset": 2400
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "cloud.service-models",
+            "anchorHeader": "saas"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "cloud",
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "vaultName": "exam-notes"
+          },
+          "value": "cloud.service-models",
+          "alias": "FAAS",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 29,
+              "offset": 2429
+            },
+            "end": {
+              "line": 42,
+              "column": 63,
+              "offset": 2463
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "cloud.service-models",
+            "anchorHeader": "faas"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "cloud",
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "vaultName": "exam-notes"
+          },
+          "value": "cloud.service-models",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 17,
+              "offset": 2481
+            },
+            "end": {
+              "line": 44,
+              "column": 41,
+              "offset": 2505
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "cloud.service-models"
           }
         }
       ],
       "anchors": {
+        "disadvantages-of-cloud": {
+          "type": "header",
+          "text": "Disadvantages of Cloud",
+          "value": "disadvantages-of-cloud",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "virtualization": {
+          "type": "header",
+          "text": "Virtualization",
+          "value": "virtualization",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
         "nist": {
           "type": "header",
           "text": "NIST",
           "value": "nist",
-          "line": 29,
+          "line": 39,
           "column": 0,
           "depth": 2
-        },
-        "service-attributes": {
-          "type": "header",
-          "text": "Service Attributes",
-          "value": "service-attributes",
-          "line": 36,
-          "column": 0,
-          "depth": 3
         },
         "service-models": {
           "type": "header",
           "text": "Service Models",
           "value": "service-models",
-          "line": 44,
-          "column": 0,
-          "depth": 2
-        },
-        "iaas": {
-          "type": "header",
-          "text": "IAAS",
-          "value": "iaas",
-          "line": 48,
+          "line": 43,
           "column": 0,
           "depth": 3
         },
-        "paas": {
+        "service-attributes": {
           "type": "header",
-          "text": "PAAS",
-          "value": "paas",
-          "line": 59,
-          "column": 0,
-          "depth": 3
-        },
-        "saas": {
-          "type": "header",
-          "text": "SAAS",
-          "value": "saas",
-          "line": 61,
+          "text": "Service Attributes",
+          "value": "service-attributes",
+          "line": 52,
           "column": 0,
           "depth": 3
         },
@@ -405,7 +857,7 @@
           "type": "header",
           "text": "Cloud Cube Model",
           "value": "cloud-cube-model",
-          "line": 63,
+          "line": 65,
           "column": 0,
           "depth": 2
         },
@@ -413,20 +865,215 @@
           "type": "header",
           "text": "Deployment Models",
           "value": "deployment-models",
-          "line": 74,
+          "line": 76,
+          "column": 0,
+          "depth": 2
+        },
+        "security": {
+          "type": "header",
+          "text": "Security",
+          "value": "security",
+          "line": 83,
+          "column": 0,
+          "depth": 2
+        },
+        "auditing--compliances": {
+          "type": "header",
+          "text": "Auditing & Compliances",
+          "value": "auditing--compliances",
+          "line": 87,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "pw0awx24u0w5y76vajehgs7"
+      ],
+      "parent": "gjr379x4uby1klukcwuuafc",
+      "data": {}
+    },
+    "pw0awx24u0w5y76vajehgs7": {
+      "id": "pw0awx24u0w5y76vajehgs7",
+      "title": "Service Models",
+      "desc": "",
+      "updated": 1664518523443,
+      "created": 1664446517154,
+      "custom": {},
+      "fname": "cloud.service-models",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "d98868b67e4195203f993008b4297dc1",
+      "links": [
+        {
+          "from": {
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "fname": "cloud",
+            "vaultName": "exam-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 34,
+              "offset": 2247
+            },
+            "end": {
+              "line": 39,
+              "column": 63,
+              "offset": 2276
+            },
+            "indent": []
+          },
+          "value": "cloud.service-models",
+          "alias": "IAAS"
+        },
+        {
+          "from": {
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "fname": "cloud",
+            "vaultName": "exam-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 40,
+              "column": 28,
+              "offset": 2304
+            },
+            "end": {
+              "line": 40,
+              "column": 62,
+              "offset": 2338
+            },
+            "indent": []
+          },
+          "value": "cloud.service-models",
+          "alias": "PAAS"
+        },
+        {
+          "from": {
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "fname": "cloud",
+            "vaultName": "exam-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 28,
+              "offset": 2366
+            },
+            "end": {
+              "line": 41,
+              "column": 62,
+              "offset": 2400
+            },
+            "indent": []
+          },
+          "value": "cloud.service-models",
+          "alias": "SAAS"
+        },
+        {
+          "from": {
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "fname": "cloud",
+            "vaultName": "exam-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 29,
+              "offset": 2429
+            },
+            "end": {
+              "line": 42,
+              "column": 63,
+              "offset": 2463
+            },
+            "indent": []
+          },
+          "value": "cloud.service-models",
+          "alias": "FAAS"
+        },
+        {
+          "from": {
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "fname": "cloud",
+            "vaultName": "exam-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 17,
+              "offset": 2481
+            },
+            "end": {
+              "line": 44,
+              "column": 41,
+              "offset": 2505
+            },
+            "indent": []
+          },
+          "value": "cloud.service-models"
+        }
+      ],
+      "anchors": {
+        "summary": {
+          "type": "header",
+          "text": "Summary",
+          "value": "summary",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "iaas": {
+          "type": "header",
+          "text": "IAAS",
+          "value": "iaas",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "paas": {
+          "type": "header",
+          "text": "PAAS",
+          "value": "paas",
+          "line": 43,
+          "column": 0,
+          "depth": 2
+        },
+        "saas": {
+          "type": "header",
+          "text": "SAAS",
+          "value": "saas",
+          "line": 64,
+          "column": 0,
+          "depth": 2
+        },
+        "faas": {
+          "type": "header",
+          "text": "FAAS",
+          "value": "faas",
+          "line": 84,
           "column": 0,
           "depth": 2
         }
       },
       "children": [],
-      "parent": "gjr379x4uby1klukcwuuafc",
+      "parent": "nx2wuyeo5kgob0u4jucsers",
       "data": {}
     },
     "keojisysn3fz8lxhbdfcna4": {
       "id": "keojisysn3fz8lxhbdfcna4",
       "title": "Artificial Intelligence (AI)",
       "desc": "",
-      "updated": 1663751768488,
+      "updated": 1664589796711,
       "created": 1663751303455,
       "custom": {},
       "fname": "ai",
@@ -436,22 +1083,110 @@
         "selfContained": true,
         "name": "exam-notes"
       },
-      "contentHash": "3ad06c758c1fa47a97e9ba5e77b3907d",
+      "contentHash": "4d7a3e0236d42504a74d7dad564befdf",
       "links": [],
       "anchors": {
+        "syllabus": {
+          "type": "header",
+          "text": "Syllabus",
+          "value": "syllabus",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "approaches-to-ai": {
+          "type": "header",
+          "text": "Approaches to AI:",
+          "value": "approaches-to-ai",
+          "line": 10,
+          "column": 0,
+          "depth": 4
+        },
+        "knowledge-representation": {
+          "type": "header",
+          "text": "Knowledge Representation:",
+          "value": "knowledge-representation",
+          "line": 14,
+          "column": 0,
+          "depth": 4
+        },
+        "planning": {
+          "type": "header",
+          "text": "Planning:",
+          "value": "planning",
+          "line": 18,
+          "column": 0,
+          "depth": 4
+        },
+        "natural-language-processing": {
+          "type": "header",
+          "text": "Natural Language Processing:",
+          "value": "natural-language-processing",
+          "line": 22,
+          "column": 0,
+          "depth": 4
+        },
+        "multi-agent-systems": {
+          "type": "header",
+          "text": "Multi-Agent Systems:",
+          "value": "multi-agent-systems",
+          "line": 26,
+          "column": 0,
+          "depth": 4
+        },
+        "fuzzy-sets": {
+          "type": "header",
+          "text": "Fuzzy Sets:",
+          "value": "fuzzy-sets",
+          "line": 30,
+          "column": 0,
+          "depth": 4
+        },
+        "genetic-algorithms-ga": {
+          "type": "header",
+          "text": "Genetic Algorithms (GA):",
+          "value": "genetic-algorithms-ga",
+          "line": 34,
+          "column": 0,
+          "depth": 4
+        },
+        "artificial-neural-networks": {
+          "type": "header",
+          "text": "Artificial Neural Networks :",
+          "value": "artificial-neural-networks",
+          "line": 38,
+          "column": 0,
+          "depth": 4
+        },
+        "machine-learning": {
+          "type": "header",
+          "text": "Machine Learning",
+          "value": "machine-learning",
+          "line": 44,
+          "column": 0,
+          "depth": 2
+        },
         "linear-algebra--regression--classification": {
           "type": "header",
           "text": "Linear Algebra , Regression & Classification",
           "value": "linear-algebra--regression--classification",
-          "line": 28,
+          "line": 66,
           "column": 0,
-          "depth": 2
+          "depth": 3
         },
         "linear-regression": {
           "type": "header",
           "text": "Linear Regression",
           "value": "linear-regression",
-          "line": 34,
+          "line": 72,
+          "column": 0,
+          "depth": 3
+        },
+        "neural-networks": {
+          "type": "header",
+          "text": "Neural Networks",
+          "value": "neural-networks",
+          "line": 76,
           "column": 0,
           "depth": 2
         },
@@ -459,7 +1194,7 @@
           "type": "header",
           "text": "What is PyTorch Tensor ??",
           "value": "what-is-pytorch-tensor-",
-          "line": 40,
+          "line": 80,
           "column": 0,
           "depth": 3
         },
@@ -467,7 +1202,7 @@
           "type": "header",
           "text": "Batch Sizes",
           "value": "batch-sizes",
-          "line": 45,
+          "line": 85,
           "column": 0,
           "depth": 3
         },
@@ -475,7 +1210,7 @@
           "type": "header",
           "text": "In the neural network terminology:",
           "value": "in-the-neural-network-terminology",
-          "line": 50,
+          "line": 90,
           "column": 0,
           "depth": 3
         },
@@ -483,7 +1218,7 @@
           "type": "header",
           "text": "Shuffles",
           "value": "shuffles",
-          "line": 58,
+          "line": 98,
           "column": 0,
           "depth": 3
         },
@@ -491,7 +1226,7 @@
           "type": "header",
           "text": "Layers (Hand Drawn Numbers training)",
           "value": "layers-hand-drawn-numbers-training",
-          "line": 62,
+          "line": 102,
           "column": 0,
           "depth": 3
         },
@@ -499,7 +1234,7 @@
           "type": "header",
           "text": "Feed Forward",
           "value": "feed-forward",
-          "line": 68,
+          "line": 108,
           "column": 0,
           "depth": 3
         },
@@ -507,7 +1242,7 @@
           "type": "header",
           "text": "Training Model",
           "value": "training-model",
-          "line": 83,
+          "line": 123,
           "column": 0,
           "depth": 3
         },
@@ -515,7 +1250,7 @@
           "type": "header",
           "text": "Neural net from scratch",
           "value": "neural-net-from-scratch",
-          "line": 91,
+          "line": 131,
           "column": 0,
           "depth": 3
         }
@@ -530,7 +1265,7 @@
       "id": "gjr379x4uby1klukcwuuafc",
       "title": "Root",
       "desc": "",
-      "updated": 1663749110634,
+      "updated": 1664424403234,
       "created": 1663740327223,
       "custom": {
         "nav_order": 0,
@@ -543,7 +1278,7 @@
         "selfContained": true,
         "name": "exam-notes"
       },
-      "contentHash": "f0577dcf4f8c635682dea6fed1600903",
+      "contentHash": "57c801f96fa00329063b52177f8e4b08",
       "links": [],
       "anchors": {
         "notes-taken-by-abhik-b-for-competitive-exams": {
@@ -558,7 +1293,9 @@
       "children": [
         "keojisysn3fz8lxhbdfcna4",
         "nx2wuyeo5kgob0u4jucsers",
-        "gx0wes5gz0irclfjvffusa4"
+        "gx0wes5gz0irclfjvffusa4",
+        "u8o7ksndu0na9g910fuglx5",
+        "4t4frfo11yj7dr8558kdhr1"
       ],
       "parent": null,
       "data": {},
@@ -569,7 +1306,7 @@
     "id": "gjr379x4uby1klukcwuuafc",
     "title": "Root",
     "desc": "",
-    "updated": 1663749110634,
+    "updated": 1664424403234,
     "created": 1663740327223,
     "custom": {
       "nav_order": 0,
@@ -582,7 +1319,7 @@
       "selfContained": true,
       "name": "exam-notes"
     },
-    "contentHash": "f0577dcf4f8c635682dea6fed1600903",
+    "contentHash": "57c801f96fa00329063b52177f8e4b08",
     "links": [],
     "anchors": {
       "notes-taken-by-abhik-b-for-competitive-exams": {
@@ -597,7 +1334,9 @@
     "children": [
       "keojisysn3fz8lxhbdfcna4",
       "nx2wuyeo5kgob0u4jucsers",
-      "gx0wes5gz0irclfjvffusa4"
+      "gx0wes5gz0irclfjvffusa4",
+      "u8o7ksndu0na9g910fuglx5",
+      "4t4frfo11yj7dr8558kdhr1"
     ],
     "parent": null,
     "data": {},

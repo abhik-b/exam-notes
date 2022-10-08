@@ -1,4 +1,42 @@
 
+## Syllabus
+
+#### Approaches to AI: 
+
+Turing Test and Rational Agent Approaches; State Space Representation of Problems, Heuristic Search Techniques, Game Playing, Min-Max Search, Alpha Beta Cutoff Procedures.
+
+#### Knowledge Representation: 
+
+Logic, Semantic Networks, Frames, Rules, Scripts, Conceptual Dependency and Ontologies; Expert Systems, Handling Uncertainty in Knowledge.
+
+#### Planning:
+
+Components of a Planning System, Linear and Non-Linear Planning; Goal Stack Planning, Hierarchical Planning, STRIPS, Partial Order Planning.
+
+#### Natural Language Processing:
+
+Grammar and Language; Parsing Techniques, Semantic Analysis and Pragmatics.
+
+#### Multi-Agent Systems:
+
+Agents and Objects; Agents and Expert Systems; Generic Structure of Multiagent System, Semantic Web, Agent Communication, Knowledge Sharing using Ontologies, Agent Development Tools.
+
+#### Fuzzy Sets:
+
+Notion of Fuzziness, Membership Functions, Fuzzification and Defuzzification; Operations on Fuzzy Sets, Fuzzy Functions and Linguistic Variables; Fuzzy Relations, Fuzzy Rules and Fuzzy Inference; Fuzzy Control System and Fuzzy Rule-Based Systems.
+
+#### Genetic Algorithms (GA):
+
+Encoding Strategies, Genetic Operators, Fitness Functions and GA Cycle; Problem Solving using GA.
+
+#### Artificial Neural Networks :
+
+Supervised, Unsupervised and Reinforcement Learning; Single Perceptron, Multi-Layer Perceptron, Self Organizing Maps, Hopfield Network.
+
+---
+
+## Machine Learning
+
 Machine Learning is a iterative process.
 
 **Supervised Learning** :
@@ -19,15 +57,17 @@ There is a direct relationship between input variable & output variable. Check t
 
 **Underfitting Data** : model doesn't has enough knowledge and gives results which have very less connections/harmony among each other , due to lack of enough attributes.
 
-## Linear Algebra , Regression & Classification
+### Linear Algebra , Regression & Classification
 
 Scalar,Vector,Matrix,Matrix Operations,Norms,Probaility,Joint Distribution,Bayes theorem , Expectation, COvariance.
 
 Vector dot product = each row \* each column
 
-## Linear Regression
+### Linear Regression
 
 ---
+
+## Neural Networks
 
 Read this to learn more about [Why Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/#why-do-you-need-virtual-environments)
 

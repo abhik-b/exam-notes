@@ -1,4 +1,108 @@
 
+## Syllabus
+
+### Digital Logic Circuits & Components :
+
+- Digital Computers
+- Logic Gates
+- Boolean ALgebra
+- Map Simplifications
+- Combinational Circuits
+- Flip-Flops
+- Sequential Circuits
+- Integrated Circuits
+- Decoders
+- Multiplexers
+- Registers
+- Counters
+- Memory Unit
+
+### Data Representation :
+
+- Data Types,
+- Number Systems and Conversion Complements,
+- Fixed Point Representation,
+- Floating-Point Representation,
+- Error Detection Codes,
+- Computer Arithmetic – Addition, Subtraction, Multiplication and Division Algorithms.
+
+### Register Transfer and Micro operations :
+
+- Register Transfer Language,
+- Bus and Memory Transfers,
+- Arithmetic, Logic and Shift Micro operations
+
+### Basic Computer Organization and Design:
+
+- Stored Program Organization and Instruction Codes,
+- Computer Registers,
+- Computer Instructions, Timing and Control,
+- Instruction Cycle,
+- Memory-Reference Instructions,
+- Input-Output, Interrupt.
+
+### Programming the Basic Computer :
+
+- Machine Language,
+- Assembly Language,
+- Assembler,
+- Program Loops,
+- Subroutines,
+- Input-Output Programming.
+
+### Microprogrammed Control:
+
+- Control Memory,
+- Address Sequencing,
+- Design of Control Unit.
+
+### Central Processing Unit:
+
+- General Register Organization,
+- Stack Organization,
+- Instruction Formats,
+- Addressing Modes,
+- RISC Computer,
+- CISC Computer.
+
+### Pipeline and Vector Processing:
+
+- Parallel Processing,
+- Pipelining,
+- Arithmetic Pipeline,
+- Instruction Pipeline,
+- Vector Processing Array Processors.
+
+### Input-Output Organization:
+
+- Peripheral Devices,
+- Input-Output Interface,
+- Asynchronous Data Transfer,
+- Modes of Transfer,
+- Priority Interrupt,
+- DMA,
+- Serial Communication.
+
+### Memory Hierarchy:
+
+- Main Memory,
+- Auxillary Memory,
+- Associative Memory,
+- Cache Memory,
+- Virtual Memory,
+- Memory Management Hardware.
+
+### Multiprocessors:
+
+- Characteristics of Multiprocessors,
+- Interconnection Structures,
+- Interprocessor Arbitration,
+- Interprocessor Communication and Synchronization,
+- Cache Coherence,
+- Multicore Processors.
+
+---
+
 1. Decimal (0-9) Base 10
 2. Binary 0,1 Base 2
 3. Octal 0-7 Base 8
@@ -225,9 +329,7 @@ To create a NOT Gate Only 1 NAND / NOR gate is required, only 1 input is given.
 
 ![](/assets/images/2022-09-21-14-27-29.png)
 
-![](/assets/images/2022-09-21-14-28-34.png)
-
----
+![](/assets/images/2022-09-24-11-09-56.png)
 
 # Boolean Algebra
 
