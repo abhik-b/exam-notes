@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1665201755856,
-      "created": 1665201755856,
+      "updated": 1665667738983,
+      "created": 1665667738983,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -667,7 +667,7 @@
         "selfContained": true,
         "name": "exam-notes"
       },
-      "contentHash": "12335694703cadb788bbe7fc19d6b86e",
+      "contentHash": "9f21933973390a776d2296f92f34e858",
       "links": [
         {
           "type": "wiki",
@@ -810,6 +810,120 @@
           "to": {
             "fname": "cloud.service-models"
           }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "cloud",
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "vaultName": "exam-notes"
+          },
+          "value": "cloud.deployment-models",
+          "alias": "Hybrid",
+          "position": {
+            "start": {
+              "line": 73,
+              "column": 3,
+              "offset": 3808
+            },
+            "end": {
+              "line": 73,
+              "column": 58,
+              "offset": 3863
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "cloud.deployment-models",
+            "anchorHeader": "hybrid-cloud-model"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "cloud",
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "vaultName": "exam-notes"
+          },
+          "value": "cloud.deployment-models",
+          "alias": "Private",
+          "position": {
+            "start": {
+              "line": 74,
+              "column": 3,
+              "offset": 3866
+            },
+            "end": {
+              "line": 74,
+              "column": 65,
+              "offset": 3928
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "cloud.deployment-models",
+            "anchorHeader": "private-deployment-model"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "cloud",
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "vaultName": "exam-notes"
+          },
+          "value": "cloud.deployment-models",
+          "alias": "Public",
+          "position": {
+            "start": {
+              "line": 75,
+              "column": 3,
+              "offset": 3931
+            },
+            "end": {
+              "line": 75,
+              "column": 58,
+              "offset": 3986
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "cloud.deployment-models",
+            "anchorHeader": "public-cloud-model"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "cloud",
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "vaultName": "exam-notes"
+          },
+          "value": "cloud.deployment-models",
+          "position": {
+            "start": {
+              "line": 77,
+              "column": 17,
+              "offset": 4004
+            },
+            "end": {
+              "line": 77,
+              "column": 44,
+              "offset": 4031
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "cloud.deployment-models"
+          }
         }
       ],
       "anchors": {
@@ -873,7 +987,7 @@
           "type": "header",
           "text": "Security",
           "value": "security",
-          "line": 83,
+          "line": 85,
           "column": 0,
           "depth": 2
         },
@@ -881,12 +995,13 @@
           "type": "header",
           "text": "Auditing & Compliances",
           "value": "auditing--compliances",
-          "line": 87,
+          "line": 89,
           "column": 0,
           "depth": 3
         }
       },
       "children": [
+        "2mcrxiw4xcch65kbk9ki6qr",
         "pw0awx24u0w5y76vajehgs7"
       ],
       "parent": "gjr379x4uby1klukcwuuafc",
@@ -1061,6 +1176,160 @@
           "text": "FAAS",
           "value": "faas",
           "line": 84,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "nx2wuyeo5kgob0u4jucsers",
+      "data": {}
+    },
+    "2mcrxiw4xcch65kbk9ki6qr": {
+      "id": "2mcrxiw4xcch65kbk9ki6qr",
+      "title": "Deployment Models",
+      "desc": "",
+      "updated": 1665667065325,
+      "created": 1665630417586,
+      "custom": {},
+      "fname": "cloud.deployment-models",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "de39af26f2fc44a37023929edaf8705d",
+      "links": [
+        {
+          "from": {
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "fname": "cloud",
+            "vaultName": "exam-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 73,
+              "column": 3,
+              "offset": 3808
+            },
+            "end": {
+              "line": 73,
+              "column": 58,
+              "offset": 3863
+            },
+            "indent": []
+          },
+          "value": "cloud.deployment-models",
+          "alias": "Hybrid"
+        },
+        {
+          "from": {
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "fname": "cloud",
+            "vaultName": "exam-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 74,
+              "column": 3,
+              "offset": 3866
+            },
+            "end": {
+              "line": 74,
+              "column": 65,
+              "offset": 3928
+            },
+            "indent": []
+          },
+          "value": "cloud.deployment-models",
+          "alias": "Private"
+        },
+        {
+          "from": {
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "fname": "cloud",
+            "vaultName": "exam-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 75,
+              "column": 3,
+              "offset": 3931
+            },
+            "end": {
+              "line": 75,
+              "column": 58,
+              "offset": 3986
+            },
+            "indent": []
+          },
+          "value": "cloud.deployment-models",
+          "alias": "Public"
+        },
+        {
+          "from": {
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "fname": "cloud",
+            "vaultName": "exam-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 77,
+              "column": 17,
+              "offset": 4004
+            },
+            "end": {
+              "line": 77,
+              "column": 44,
+              "offset": 4031
+            },
+            "indent": []
+          },
+          "value": "cloud.deployment-models"
+        }
+      ],
+      "anchors": {
+        "private-deployment-model": {
+          "type": "header",
+          "text": "Private Deployment Model",
+          "value": "private-deployment-model",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "public-cloud-model": {
+          "type": "header",
+          "text": "Public Cloud Model",
+          "value": "public-cloud-model",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "hybrid-cloud-model": {
+          "type": "header",
+          "text": "Hybrid Cloud Model",
+          "value": "hybrid-cloud-model",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "high-performance-computing": {
+          "type": "header",
+          "text": "High Performance Computing",
+          "value": "high-performance-computing",
+          "line": 36,
+          "column": 0,
+          "depth": 2
+        },
+        "big-data-cloud": {
+          "type": "header",
+          "text": "Big Data Cloud",
+          "value": "big-data-cloud",
+          "line": 44,
           "column": 0,
           "depth": 2
         }

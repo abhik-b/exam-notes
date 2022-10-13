@@ -16,6 +16,14 @@
       "vaultName": "exam-notes",
       "children": [
         {
+          "key": "2mcrxiw4xcch65kbk9ki6qr",
+          "title": "Deployment Models",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "exam-notes",
+          "children": []
+        },
+        {
           "key": "pw0awx24u0w5y76vajehgs7",
           "title": "Service Models",
           "icon": null,
@@ -53,6 +61,7 @@
   "child2parent": {
     "keojisysn3fz8lxhbdfcna4": null,
     "nx2wuyeo5kgob0u4jucsers": null,
+    "2mcrxiw4xcch65kbk9ki6qr": "nx2wuyeo5kgob0u4jucsers",
     "pw0awx24u0w5y76vajehgs7": "nx2wuyeo5kgob0u4jucsers",
     "gx0wes5gz0irclfjvffusa4": null,
     "u8o7ksndu0na9g910fuglx5": null,
@@ -61,6 +70,7 @@
   "notesLabelById": {
     "keojisysn3fz8lxhbdfcna4": "Artificial Intelligence (AI)",
     "nx2wuyeo5kgob0u4jucsers": "Cloud Computing",
+    "2mcrxiw4xcch65kbk9ki6qr": "Deployment Models",
     "pw0awx24u0w5y76vajehgs7": "Service Models",
     "gx0wes5gz0irclfjvffusa4": "Computer Architecture",
     "u8o7ksndu0na9g910fuglx5": "Dsa",
