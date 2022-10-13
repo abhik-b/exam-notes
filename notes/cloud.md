@@ -77,9 +77,11 @@ Read more from [here](https://data-flair.training/blogs/cloud-cube-model/)
 ## Deployment Models
 
 - Community
-- Hybrid
-- Private
-- Public
+- [[Hybrid | cloud.deployment-models#hybrid-cloud-model]]
+- [[Private | cloud.deployment-models#private-deployment-model]]
+- [[Public | cloud.deployment-models#public-cloud-model]]
+
+Read more about [[cloud.deployment-models]]
 
 ## Security
 
