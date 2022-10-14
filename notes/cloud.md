@@ -2,7 +2,7 @@
 id: nx2wuyeo5kgob0u4jucsers
 title: Cloud Computing
 desc: ''
-updated: 1664547692534
+updated: 1665754485296
 created: 1663749154508
 ---
 
@@ -14,28 +14,9 @@ created: 1663749154508
 2. Firm's data is under control of cloud provider
 3. Limited ability to move data from provider
 
-## Virtualization
+ [[cloud.virtualization]]
 
-Virtualization or virtualisation (sometimes abbreviated `v12n`, a numeronym) is the act of creating a *virtual* (rather than actual) version of something at the same abstraction level, including virtual computer hardware platforms, storage devices, and computer network resources. With virtualisationit is possibleto manage hardware like software.
 
-Virtual processing shares the cloud providers :
-
-- Processing Hardware
-- Disk & Storage
-- Memory
-- Networking
-- Desktop
-
-**Hypervisor** (also known as a _virtual machine monitor, VMM, or virtualizer_) is a type of computer software, firmware or hardware that creates and runs virtual machines. There are 2 types of hypervisor :
-
-Type 1 - runs directly on the hardware. This hypervisor also provides the OS.  
-Type 2 - hypervisor is managed by the OS like any other application
-
-![types of hypervisor](/assets/images/20220917075011-1.png)
-
-A distributed system is a system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another. The components interact with one another in order to achieve a common goal. Three significant characteristics of distributed systems are: concurrency of components, lack of a global clock, and independent failure of components. Examples of distributed systems vary from SOA-based systems to massively multiplayer online games to peer-to-peer applications.
-
-A computer program that runs within a distributed system is called a distributed program (and distributed programming is the process of writing such programs). There are many different types of implementations for the message passing mechanism, including pure HTTP, RPC-like connectors and message queues.
 
 ## NIST
 
@@ -83,6 +64,9 @@ Read more from [here](https://data-flair.training/blogs/cloud-cube-model/)
 
 Read more about [[cloud.deployment-models]]
 
+
+
+
 ## Security
 
 Security can be a issue if cloud providers do not take necessary actions to guard the data.
@@ -108,3 +92,29 @@ Although audit and compliances functions have always played on important role in
 - SLA -> data ownership , lifecycle , data destroy & verification proecess should be.
 - Data Lock-In -> Obtain exit-strategy and options from cloud service provider.
 - Regulatory compliances -> Include compliances officers & chief informationalofficers in auditing processes and the address privacy & security
+
+## Hosting
+![](/assets/images/2022-10-14-09-14-26.png)
+
+![](/assets/images/2022-10-14-15-06-29.png)
+
+![](/assets/images/2022-10-14-15-08-28.png)
+
+## Best Practices & Use cases 
+![](/assets/images/2022-10-14-15-48-54.png)
+
+![](/assets/images/2022-10-14-16-09-28.png)
+
+## Serverless Computing
+
+![](/assets/images/2022-10-14-18-55-00.png)
+![](/assets/images/2022-10-14-18-56-15.png)
+
+## Distributed Ledger Technology
+![](/assets/images/2022-10-14-19-00-02.png)
+![](/assets/images/2022-10-14-19-01-13.png)
+![](/assets/images/2022-10-14-19-01-58.png)
+
+
+## IOT 
+![](/assets/images/2022-10-14-19-04-44.png)

@@ -2,7 +2,7 @@
 id: keojisysn3fz8lxhbdfcna4
 title: Artificial Intelligence (AI)
 desc: ''
-updated: 1664589796711
+updated: 1665754430307
 created: 1663751303455
 ---
 
@@ -41,6 +41,10 @@ Encoding Strategies, Genetic Operators, Fitness Functions and GA Cycle; Problem 
 Supervised, Unsupervised and Reinforcement Learning; Single Perceptron, Multi-Layer Perceptron, Self Organizing Maps, Hopfield Network.
 
 ---
+
+![](/assets/images/2022-10-14-19-03-22.png)
+![](/assets/images/2022-10-14-19-03-49.png)
+
 
 ## Machine Learning
 
