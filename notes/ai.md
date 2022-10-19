@@ -2,7 +2,7 @@
 id: keojisysn3fz8lxhbdfcna4
 title: Artificial Intelligence (AI)
 desc: ''
-updated: 1665754430307
+updated: 1666181892352
 created: 1663751303455
 ---
 
@@ -45,39 +45,7 @@ Supervised, Unsupervised and Reinforcement Learning; Single Perceptron, Multi-La
 ![](/assets/images/2022-10-14-19-03-22.png)
 ![](/assets/images/2022-10-14-19-03-49.png)
 
-
-## Machine Learning
-
-Machine Learning is a iterative process.
-
-**Supervised Learning** :
-There is a direct relationship between input variable & output variable. Check the drawing below to understand more :
-![](/assets/images/2022-09-21-14-39-10.png)
-
-**Supervised learning** problems can be classified into :
-
-- _regression problem_ : Data itself is predicted. Example :House price prediction
-
-- _classification problem_ : Category is predicted by the data. Example : if we upload an image of an animal then whether that animal is cat or non cat .
-
-**_Anomaly detection algorithm_** : Identify unusal data points. Example : Unusal traffic or strange patterns in network that can indicate network is hacked.
-
-**_Clustering algorithm_** : Groups data based on similiar conditions. Example : what types of customer buys a certain product
-
-**Overfitting Data** : When model tries to use all attributes (even the least important ones) due to excess knowledge of attributes training set score is increasing (or error is decreasing) while testing set score is decreasing (or error is increasing)
-
-**Underfitting Data** : model doesn't has enough knowledge and gives results which have very less connections/harmony among each other , due to lack of enough attributes.
-
-### Linear Algebra , Regression & Classification
-
-Scalar,Vector,Matrix,Matrix Operations,Norms,Probaility,Joint Distribution,Bayes theorem , Expectation, COvariance.
-
-Vector dot product = each row \* each column
-
-### Linear Regression
-
----
-
+[[ml]]
 ## Neural Networks
 
 Read this to learn more about [Why Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/#why-do-you-need-virtual-environments)
