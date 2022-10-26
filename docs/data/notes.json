@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1665667738983,
-      "created": 1665667738983,
+      "updated": 1666798663986,
+      "created": 1666798663986,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -54,6 +54,7 @@
         "nx2wuyeo5kgob0u4jucsers",
         "gx0wes5gz0irclfjvffusa4",
         "u8o7ksndu0na9g910fuglx5",
+        "teaqsmbxeubw47kp104doko",
         "4t4frfo11yj7dr8558kdhr1"
       ],
       "parent": null,
@@ -239,6 +240,92 @@
       },
       "children": [],
       "parent": "gjr379x4uby1klukcwuuafc",
+      "data": {}
+    },
+    "teaqsmbxeubw47kp104doko": {
+      "id": "teaqsmbxeubw47kp104doko",
+      "title": "Machine Learning",
+      "desc": "",
+      "updated": 1666703784985,
+      "created": 1666181626213,
+      "custom": {},
+      "fname": "ml",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "ef36bf5a01d1e5de4ce418c6e69e2ee5",
+      "links": [],
+      "anchors": {
+        "linear-algebra--classification": {
+          "type": "header",
+          "text": "Linear Algebra & Classification",
+          "value": "linear-algebra--classification",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "least-square-method": {
+          "type": "header",
+          "text": "Least Square Method",
+          "value": "least-square-method",
+          "line": 33,
+          "column": 0,
+          "depth": 3
+        },
+        "gradient-descent": {
+          "type": "header",
+          "text": "Gradient Descent",
+          "value": "gradient-descent",
+          "line": 40,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "9t5w8vr9crcq66hrljywspb"
+      ],
+      "parent": "gjr379x4uby1klukcwuuafc",
+      "data": {}
+    },
+    "9t5w8vr9crcq66hrljywspb": {
+      "id": "9t5w8vr9crcq66hrljywspb",
+      "title": "Regression",
+      "desc": "",
+      "updated": 1666694369495,
+      "created": 1666181739473,
+      "custom": {},
+      "fname": "ml.regression",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "995368b890908300d8e402011f2913df",
+      "links": [],
+      "anchors": {
+        "simple-linear-regression": {
+          "type": "header",
+          "text": "Simple linear regression",
+          "value": "simple-linear-regression",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "multiple-linear-regression": {
+          "type": "header",
+          "text": "Multiple linear regression",
+          "value": "multiple-linear-regression",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "teaqsmbxeubw47kp104doko",
       "data": {}
     },
     "u8o7ksndu0na9g910fuglx5": {
@@ -657,7 +744,7 @@
       "id": "nx2wuyeo5kgob0u4jucsers",
       "title": "Cloud Computing",
       "desc": "",
-      "updated": 1664547692534,
+      "updated": 1665754485296,
       "created": 1663749154508,
       "custom": {},
       "fname": "cloud",
@@ -667,8 +754,35 @@
         "selfContained": true,
         "name": "exam-notes"
       },
-      "contentHash": "9f21933973390a776d2296f92f34e858",
+      "contentHash": "c32383c72cf9b533b7cb9c30fc4f6275",
       "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "cloud",
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "vaultName": "exam-notes"
+          },
+          "value": "cloud.virtualization",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 2,
+              "offset": 390
+            },
+            "end": {
+              "line": 10,
+              "column": 26,
+              "offset": 414
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "cloud.virtualization"
+          }
+        },
         {
           "type": "wiki",
           "from": {
@@ -680,14 +794,14 @@
           "alias": "IAAS",
           "position": {
             "start": {
-              "line": 39,
+              "line": 20,
               "column": 34,
-              "offset": 2247
+              "offset": 526
             },
             "end": {
-              "line": 39,
+              "line": 20,
               "column": 63,
-              "offset": 2276
+              "offset": 555
             },
             "indent": []
           },
@@ -708,14 +822,14 @@
           "alias": "PAAS",
           "position": {
             "start": {
-              "line": 40,
+              "line": 21,
               "column": 28,
-              "offset": 2304
+              "offset": 583
             },
             "end": {
-              "line": 40,
+              "line": 21,
               "column": 62,
-              "offset": 2338
+              "offset": 617
             },
             "indent": []
           },
@@ -737,14 +851,14 @@
           "alias": "SAAS",
           "position": {
             "start": {
-              "line": 41,
+              "line": 22,
               "column": 28,
-              "offset": 2366
+              "offset": 645
             },
             "end": {
-              "line": 41,
+              "line": 22,
               "column": 62,
-              "offset": 2400
+              "offset": 679
             },
             "indent": []
           },
@@ -766,14 +880,14 @@
           "alias": "FAAS",
           "position": {
             "start": {
-              "line": 42,
+              "line": 23,
               "column": 29,
-              "offset": 2429
+              "offset": 708
             },
             "end": {
-              "line": 42,
+              "line": 23,
               "column": 63,
-              "offset": 2463
+              "offset": 742
             },
             "indent": []
           },
@@ -794,14 +908,14 @@
           "value": "cloud.service-models",
           "position": {
             "start": {
-              "line": 44,
+              "line": 25,
               "column": 17,
-              "offset": 2481
+              "offset": 760
             },
             "end": {
-              "line": 44,
+              "line": 25,
               "column": 41,
-              "offset": 2505
+              "offset": 784
             },
             "indent": []
           },
@@ -822,14 +936,14 @@
           "alias": "Hybrid",
           "position": {
             "start": {
-              "line": 73,
+              "line": 54,
               "column": 3,
-              "offset": 3808
+              "offset": 2087
             },
             "end": {
-              "line": 73,
+              "line": 54,
               "column": 58,
-              "offset": 3863
+              "offset": 2142
             },
             "indent": []
           },
@@ -851,14 +965,14 @@
           "alias": "Private",
           "position": {
             "start": {
-              "line": 74,
+              "line": 55,
               "column": 3,
-              "offset": 3866
+              "offset": 2145
             },
             "end": {
-              "line": 74,
+              "line": 55,
               "column": 65,
-              "offset": 3928
+              "offset": 2207
             },
             "indent": []
           },
@@ -880,14 +994,14 @@
           "alias": "Public",
           "position": {
             "start": {
-              "line": 75,
+              "line": 56,
               "column": 3,
-              "offset": 3931
+              "offset": 2210
             },
             "end": {
-              "line": 75,
+              "line": 56,
               "column": 58,
-              "offset": 3986
+              "offset": 2265
             },
             "indent": []
           },
@@ -908,14 +1022,14 @@
           "value": "cloud.deployment-models",
           "position": {
             "start": {
-              "line": 77,
+              "line": 58,
               "column": 17,
-              "offset": 4004
+              "offset": 2283
             },
             "end": {
-              "line": 77,
+              "line": 58,
               "column": 44,
-              "offset": 4031
+              "offset": 2310
             },
             "indent": []
           },
@@ -935,19 +1049,11 @@
           "column": 0,
           "depth": 2
         },
-        "virtualization": {
-          "type": "header",
-          "text": "Virtualization",
-          "value": "virtualization",
-          "line": 16,
-          "column": 0,
-          "depth": 2
-        },
         "nist": {
           "type": "header",
           "text": "NIST",
           "value": "nist",
-          "line": 39,
+          "line": 20,
           "column": 0,
           "depth": 2
         },
@@ -955,7 +1061,7 @@
           "type": "header",
           "text": "Service Models",
           "value": "service-models",
-          "line": 43,
+          "line": 24,
           "column": 0,
           "depth": 3
         },
@@ -963,7 +1069,7 @@
           "type": "header",
           "text": "Service Attributes",
           "value": "service-attributes",
-          "line": 52,
+          "line": 33,
           "column": 0,
           "depth": 3
         },
@@ -971,7 +1077,7 @@
           "type": "header",
           "text": "Cloud Cube Model",
           "value": "cloud-cube-model",
-          "line": 65,
+          "line": 46,
           "column": 0,
           "depth": 2
         },
@@ -979,7 +1085,7 @@
           "type": "header",
           "text": "Deployment Models",
           "value": "deployment-models",
-          "line": 76,
+          "line": 57,
           "column": 0,
           "depth": 2
         },
@@ -987,7 +1093,7 @@
           "type": "header",
           "text": "Security",
           "value": "security",
-          "line": 85,
+          "line": 69,
           "column": 0,
           "depth": 2
         },
@@ -995,16 +1101,126 @@
           "type": "header",
           "text": "Auditing & Compliances",
           "value": "auditing--compliances",
-          "line": 89,
+          "line": 73,
           "column": 0,
           "depth": 3
+        },
+        "hosting": {
+          "type": "header",
+          "text": "Hosting",
+          "value": "hosting",
+          "line": 95,
+          "column": 0,
+          "depth": 2
+        },
+        "best-practices--use-cases": {
+          "type": "header",
+          "text": "Best Practices & Use cases",
+          "value": "best-practices--use-cases",
+          "line": 102,
+          "column": 0,
+          "depth": 2
+        },
+        "serverless-computing": {
+          "type": "header",
+          "text": "Serverless Computing",
+          "value": "serverless-computing",
+          "line": 107,
+          "column": 0,
+          "depth": 2
+        },
+        "distributed-ledger-technology": {
+          "type": "header",
+          "text": "Distributed Ledger Technology",
+          "value": "distributed-ledger-technology",
+          "line": 112,
+          "column": 0,
+          "depth": 2
+        },
+        "iot": {
+          "type": "header",
+          "text": "IOT",
+          "value": "iot",
+          "line": 118,
+          "column": 0,
+          "depth": 2
         }
       },
       "children": [
         "2mcrxiw4xcch65kbk9ki6qr",
-        "pw0awx24u0w5y76vajehgs7"
+        "pw0awx24u0w5y76vajehgs7",
+        "ve8zhrfd7hjiwxef2ivpp0o"
       ],
       "parent": "gjr379x4uby1klukcwuuafc",
+      "data": {}
+    },
+    "ve8zhrfd7hjiwxef2ivpp0o": {
+      "id": "ve8zhrfd7hjiwxef2ivpp0o",
+      "title": "Virtualization",
+      "desc": "",
+      "updated": 1665718377548,
+      "created": 1665716663145,
+      "custom": {},
+      "fname": "cloud.virtualization",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "exam-notes"
+      },
+      "contentHash": "c3fe80165b69e5310735b5ab53ad3863",
+      "links": [
+        {
+          "from": {
+            "id": "nx2wuyeo5kgob0u4jucsers",
+            "fname": "cloud",
+            "vaultName": "exam-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 2,
+              "offset": 390
+            },
+            "end": {
+              "line": 10,
+              "column": 26,
+              "offset": 414
+            },
+            "indent": []
+          },
+          "value": "cloud.virtualization"
+        }
+      ],
+      "anchors": {
+        "bare-metal-computing": {
+          "type": "header",
+          "text": "Bare Metal Computing",
+          "value": "bare-metal-computing",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "vms-docker--kubernetes": {
+          "type": "header",
+          "text": "VMs, Docker & Kubernetes",
+          "value": "vms-docker--kubernetes",
+          "line": 35,
+          "column": 0,
+          "depth": 2
+        },
+        "on-premises-computing": {
+          "type": "header",
+          "text": "On Premises Computing",
+          "value": "on-premises-computing",
+          "line": 51,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "nx2wuyeo5kgob0u4jucsers",
       "data": {}
     },
     "pw0awx24u0w5y76vajehgs7": {
@@ -1032,14 +1248,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 39,
+              "line": 20,
               "column": 34,
-              "offset": 2247
+              "offset": 526
             },
             "end": {
-              "line": 39,
+              "line": 20,
               "column": 63,
-              "offset": 2276
+              "offset": 555
             },
             "indent": []
           },
@@ -1055,14 +1271,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 40,
+              "line": 21,
               "column": 28,
-              "offset": 2304
+              "offset": 583
             },
             "end": {
-              "line": 40,
+              "line": 21,
               "column": 62,
-              "offset": 2338
+              "offset": 617
             },
             "indent": []
           },
@@ -1078,14 +1294,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 41,
+              "line": 22,
               "column": 28,
-              "offset": 2366
+              "offset": 645
             },
             "end": {
-              "line": 41,
+              "line": 22,
               "column": 62,
-              "offset": 2400
+              "offset": 679
             },
             "indent": []
           },
@@ -1101,14 +1317,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 42,
+              "line": 23,
               "column": 29,
-              "offset": 2429
+              "offset": 708
             },
             "end": {
-              "line": 42,
+              "line": 23,
               "column": 63,
-              "offset": 2463
+              "offset": 742
             },
             "indent": []
           },
@@ -1124,14 +1340,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 44,
+              "line": 25,
               "column": 17,
-              "offset": 2481
+              "offset": 760
             },
             "end": {
-              "line": 44,
+              "line": 25,
               "column": 41,
-              "offset": 2505
+              "offset": 784
             },
             "indent": []
           },
@@ -1209,14 +1425,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 73,
+              "line": 54,
               "column": 3,
-              "offset": 3808
+              "offset": 2087
             },
             "end": {
-              "line": 73,
+              "line": 54,
               "column": 58,
-              "offset": 3863
+              "offset": 2142
             },
             "indent": []
           },
@@ -1232,14 +1448,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 74,
+              "line": 55,
               "column": 3,
-              "offset": 3866
+              "offset": 2145
             },
             "end": {
-              "line": 74,
+              "line": 55,
               "column": 65,
-              "offset": 3928
+              "offset": 2207
             },
             "indent": []
           },
@@ -1255,14 +1471,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 75,
+              "line": 56,
               "column": 3,
-              "offset": 3931
+              "offset": 2210
             },
             "end": {
-              "line": 75,
+              "line": 56,
               "column": 58,
-              "offset": 3986
+              "offset": 2265
             },
             "indent": []
           },
@@ -1278,14 +1494,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 77,
+              "line": 58,
               "column": 17,
-              "offset": 4004
+              "offset": 2283
             },
             "end": {
-              "line": 77,
+              "line": 58,
               "column": 44,
-              "offset": 4031
+              "offset": 2310
             },
             "indent": []
           },
@@ -1342,7 +1558,7 @@
       "id": "keojisysn3fz8lxhbdfcna4",
       "title": "Artificial Intelligence (AI)",
       "desc": "",
-      "updated": 1664589796711,
+      "updated": 1666181892352,
       "created": 1663751303455,
       "custom": {},
       "fname": "ai",
@@ -1352,7 +1568,7 @@
         "selfContained": true,
         "name": "exam-notes"
       },
-      "contentHash": "4d7a3e0236d42504a74d7dad564befdf",
+      "contentHash": "b210d14e835096b8f6acd0ba2eff2823",
       "links": [],
       "anchors": {
         "syllabus": {
@@ -1427,35 +1643,11 @@
           "column": 0,
           "depth": 4
         },
-        "machine-learning": {
-          "type": "header",
-          "text": "Machine Learning",
-          "value": "machine-learning",
-          "line": 44,
-          "column": 0,
-          "depth": 2
-        },
-        "linear-algebra--regression--classification": {
-          "type": "header",
-          "text": "Linear Algebra , Regression & Classification",
-          "value": "linear-algebra--regression--classification",
-          "line": 66,
-          "column": 0,
-          "depth": 3
-        },
-        "linear-regression": {
-          "type": "header",
-          "text": "Linear Regression",
-          "value": "linear-regression",
-          "line": 72,
-          "column": 0,
-          "depth": 3
-        },
         "neural-networks": {
           "type": "header",
           "text": "Neural Networks",
           "value": "neural-networks",
-          "line": 76,
+          "line": 48,
           "column": 0,
           "depth": 2
         },
@@ -1463,7 +1655,7 @@
           "type": "header",
           "text": "What is PyTorch Tensor ??",
           "value": "what-is-pytorch-tensor-",
-          "line": 80,
+          "line": 52,
           "column": 0,
           "depth": 3
         },
@@ -1471,7 +1663,7 @@
           "type": "header",
           "text": "Batch Sizes",
           "value": "batch-sizes",
-          "line": 85,
+          "line": 57,
           "column": 0,
           "depth": 3
         },
@@ -1479,7 +1671,7 @@
           "type": "header",
           "text": "In the neural network terminology:",
           "value": "in-the-neural-network-terminology",
-          "line": 90,
+          "line": 62,
           "column": 0,
           "depth": 3
         },
@@ -1487,7 +1679,7 @@
           "type": "header",
           "text": "Shuffles",
           "value": "shuffles",
-          "line": 98,
+          "line": 70,
           "column": 0,
           "depth": 3
         },
@@ -1495,7 +1687,7 @@
           "type": "header",
           "text": "Layers (Hand Drawn Numbers training)",
           "value": "layers-hand-drawn-numbers-training",
-          "line": 102,
+          "line": 74,
           "column": 0,
           "depth": 3
         },
@@ -1503,7 +1695,7 @@
           "type": "header",
           "text": "Feed Forward",
           "value": "feed-forward",
-          "line": 108,
+          "line": 80,
           "column": 0,
           "depth": 3
         },
@@ -1511,7 +1703,7 @@
           "type": "header",
           "text": "Training Model",
           "value": "training-model",
-          "line": 123,
+          "line": 95,
           "column": 0,
           "depth": 3
         },
@@ -1519,7 +1711,7 @@
           "type": "header",
           "text": "Neural net from scratch",
           "value": "neural-net-from-scratch",
-          "line": 131,
+          "line": 103,
           "column": 0,
           "depth": 3
         }
@@ -1564,6 +1756,7 @@
         "nx2wuyeo5kgob0u4jucsers",
         "gx0wes5gz0irclfjvffusa4",
         "u8o7ksndu0na9g910fuglx5",
+        "teaqsmbxeubw47kp104doko",
         "4t4frfo11yj7dr8558kdhr1"
       ],
       "parent": null,
@@ -1605,6 +1798,7 @@
       "nx2wuyeo5kgob0u4jucsers",
       "gx0wes5gz0irclfjvffusa4",
       "u8o7ksndu0na9g910fuglx5",
+      "teaqsmbxeubw47kp104doko",
       "4t4frfo11yj7dr8558kdhr1"
     ],
     "parent": null,

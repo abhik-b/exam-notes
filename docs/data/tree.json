@@ -30,6 +30,14 @@
           "hasTitleNumberOutlined": false,
           "vaultName": "exam-notes",
           "children": []
+        },
+        {
+          "key": "ve8zhrfd7hjiwxef2ivpp0o",
+          "title": "Virtualization",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "exam-notes",
+          "children": []
         }
       ]
     },
@@ -50,6 +58,23 @@
       "children": []
     },
     {
+      "key": "teaqsmbxeubw47kp104doko",
+      "title": "Machine Learning",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "exam-notes",
+      "children": [
+        {
+          "key": "9t5w8vr9crcq66hrljywspb",
+          "title": "Regression",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "exam-notes",
+          "children": []
+        }
+      ]
+    },
+    {
       "key": "4t4frfo11yj7dr8558kdhr1",
       "title": "Os",
       "icon": null,
@@ -63,8 +88,11 @@
     "nx2wuyeo5kgob0u4jucsers": null,
     "2mcrxiw4xcch65kbk9ki6qr": "nx2wuyeo5kgob0u4jucsers",
     "pw0awx24u0w5y76vajehgs7": "nx2wuyeo5kgob0u4jucsers",
+    "ve8zhrfd7hjiwxef2ivpp0o": "nx2wuyeo5kgob0u4jucsers",
     "gx0wes5gz0irclfjvffusa4": null,
     "u8o7ksndu0na9g910fuglx5": null,
+    "teaqsmbxeubw47kp104doko": null,
+    "9t5w8vr9crcq66hrljywspb": "teaqsmbxeubw47kp104doko",
     "4t4frfo11yj7dr8558kdhr1": null
   },
   "notesLabelById": {
@@ -72,8 +100,11 @@
     "nx2wuyeo5kgob0u4jucsers": "Cloud Computing",
     "2mcrxiw4xcch65kbk9ki6qr": "Deployment Models",
     "pw0awx24u0w5y76vajehgs7": "Service Models",
+    "ve8zhrfd7hjiwxef2ivpp0o": "Virtualization",
     "gx0wes5gz0irclfjvffusa4": "Computer Architecture",
     "u8o7ksndu0na9g910fuglx5": "Dsa",
+    "teaqsmbxeubw47kp104doko": "Machine Learning",
+    "9t5w8vr9crcq66hrljywspb": "Regression",
     "4t4frfo11yj7dr8558kdhr1": "Os"
   }
 }
