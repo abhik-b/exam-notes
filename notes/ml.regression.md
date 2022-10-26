@@ -2,14 +2,14 @@
 id: 9t5w8vr9crcq66hrljywspb
 title: Regression
 desc: ''
-updated: 1666181782448
+updated: 1666694369495
 created: 1666181739473
 ---
 
 Regression models describe the relationship between variables by fitting a line to the observed data. Linear regression models use a straight line, while logistic and nonlinear regression models use a curved line. Learn more [here](https://statsandr.com/blog/multiple-linear-regression-made-simple/)
 
 ## Simple linear regression 
-Simple linear regression is used to estimate the relationship between two quantitative variables. You can use simple linear regression when you want to know: How strong the relationship is between two variables (e.g. the relationship between rainfall and soil erosion).The value of the dependent variable at a certain value of the independent variable (e.g. the amount of soil erosion at a certain level of rainfall).
+Simple linear regression is used to estimate the relationship between two quantitative variables. You can use simple linear regression when you want to know : How strong the relationship is between two variables (e.g. the relationship between rainfall and soil erosion).The value of the dependent variable at a certain value of the independent variable (e.g. the amount of soil erosion at a certain level of rainfall).
 Read more [here](https://online.stat.psu.edu/stat462/node/91/)
 
 

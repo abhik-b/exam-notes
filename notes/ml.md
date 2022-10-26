@@ -2,7 +2,7 @@
 id: teaqsmbxeubw47kp104doko
 title: Machine Learning
 desc: ''
-updated: 1666181739549
+updated: 1666703784985
 created: 1666181626213
 ---
 Machine Learning is a iterative process.
@@ -25,11 +25,10 @@ There is a direct relationship between input variable & output variable. Check t
 
 **Underfitting Data** : model doesn't has enough knowledge and gives results which have very less connections/harmony among each other , due to lack of enough attributes.
 
-### Linear Algebra , Regression & Classification
-
-Scalar,Vector,Matrix,Matrix Operations,Norms,Probaility,Joint Distribution,Bayes theorem , Expectation, COvariance.
+## Linear Algebra & Classification
 
 Vector dot product = each row \* each column
+
 
 
 ### Least Square Method
@@ -43,4 +42,3 @@ Learn more [here](https://www.investopedia.com/terms/l/least-squares-method.asp)
 Gradient descent (GD) is an iterative first-order optimisation algorithm used to find a local minimum/maximum of a given function. This method is commonly used in machine learning (ML) and deep learning(DL) to minimise a cost/loss function (e.g. in a linear regression). Due to its importance and ease of implementation, this algorithm is usually taught at the beginning of almost all machine learning courses.
 Learn [more](https://towardsdatascience.com/gradient-descent-algorithm-a-deep-dive-cf04e8115f21)
 
-[[ml.regression]]

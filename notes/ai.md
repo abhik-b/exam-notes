@@ -45,7 +45,7 @@ Supervised, Unsupervised and Reinforcement Learning; Single Perceptron, Multi-La
 ![](/assets/images/2022-10-14-19-03-22.png)
 ![](/assets/images/2022-10-14-19-03-49.png)
 
-[[ml]]
+
 ## Neural Networks
 
 Read this to learn more about [Why Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/#why-do-you-need-virtual-environments)
